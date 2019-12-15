@@ -123,9 +123,8 @@ li{
 }
 
 .image img{
-  height:420px;
-  width:615px;
-  display:inline-block;
+  height: auto;
+  width: 600px;
 }
 
 .image h1 .mission h3{
