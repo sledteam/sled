@@ -117,10 +117,10 @@ li{
   z-index:0;
 }
 
-.mission{
+.mission h3{
   position: relative;
   top: 100px;
-  opacity: 70%;
+  opacity: 50%;
 }
 
 .mission:hover{
