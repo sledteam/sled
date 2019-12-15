@@ -126,7 +126,7 @@ li{
   opacity: 50%;
 }
 
-.mission:hover{
+.mission h3:hover{
   opacity:100%;
 }
 
