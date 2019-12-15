@@ -117,14 +117,14 @@ li{
   z-index:0;
 }
 
-.img{
+.image{
   display:block;
   margin-top: 100px;
 }
 
 .image img{
-  height:340px;
-  width:510px;
+  height:420px;
+  width:615px;
   display:inline-block;
 }
 
