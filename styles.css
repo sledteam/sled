@@ -117,19 +117,25 @@ li{
   z-index:0;
 }
 
+.img{
+  margin-top: 100px;
+}
+
 .image img{
   height:50%;
   width:50%;
-  display:inline;
+  display:inline-block;
 }
 
 .image h1 .mission h3{
-  display:inline;
+  display:inline-block;
+  float:left;
 }
 
 .image h1{
   color: #24ABE2;
-  font-size:40px;
+  font-size:50px;
+  margin:5px 10px 5px 30px;
 }
 
 .image h3{
