@@ -119,12 +119,12 @@ li{
 
 .title{
   display:block;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .title h1{
   color: #0E76BC;
-  font-size:60px;
+  font-size:80px;
   margin:5px 10px 5px 30px;
   text-align: center;
 }
@@ -134,11 +134,12 @@ li{
   text-align: center;
   opacity:90%;
   color:27693#0;
+  margin-top: 20px;
 }
 
 .mission{
   position: relative;
-  top: 200px;
+  top: 250px;
 }
 
 .mission h3{
