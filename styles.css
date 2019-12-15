@@ -117,9 +117,12 @@ li{
   z-index:0;
 }
 
-.mission h3{
+.mission{
   position: relative;
   top: 100px;
+}
+
+.mission h3{
   opacity: 50%;
 }
 
