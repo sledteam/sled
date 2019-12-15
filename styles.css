@@ -110,7 +110,7 @@ li{
 }
 
 .main{
-  height: 800px;
+  height: 1200px;
   width: 100%;
   margin: 0px 0px 0px 0px;
   position:relative;
@@ -120,6 +120,7 @@ li{
 .title{
   display:block;
   margin-top: 300px;
+  position:relative;
 }
 
 .title h1{
@@ -160,6 +161,27 @@ li{
   text-align: center;
   color: #24ABE2;
   font-size:25px;
+}
+
+.projects{
+  margin-top:200px;
+  position:relative;
+}
+
+.projects h1{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+.projects h3{
+  padding:10px 20px;
+  text-align: center;
+  color: #24ABE2;
+  font-size: 30px;
+  border-style:solid;
+  border-width:2px;
+  border-radius:4px;
 }
 
 
