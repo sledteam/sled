@@ -26,6 +26,11 @@ a:active {
   cursor: pointer;
 }
 
+@logo{
+  from{font-size:60px;}
+  to{font-size:100px;}
+}
+
 
 .header {
   background-color: #77e6ca;
@@ -128,6 +133,9 @@ li{
   font-size:80px;
   margin:5px 10px 5px 30px;
   text-align: center;
+  animation-name: logo;
+  animation-delay: 2s;
+  animation-duration: 2s;
 }
 
 .title h3{
