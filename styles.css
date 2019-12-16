@@ -55,6 +55,12 @@ li{
   color: white;
 }
 
+.header a{
+  float:left;
+  display:inline-block;
+  color:black;
+}
+
 
 .header-link li{
   float: left;
