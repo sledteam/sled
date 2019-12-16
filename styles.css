@@ -119,7 +119,7 @@ li{
 
 .title{
   display:block;
-  margin-top: 500px;
+  margin-top: 300px;
   position:relative;
 }
 
@@ -130,9 +130,9 @@ li{
   text-align: center;
 }
 
-.title ul{
+.title h3{
   font-size:25px;
-  display:inline-block;
+  text-align:center;
   opacity:90%;
   color:27693#0;
   margin-top: 20px;
@@ -145,6 +145,9 @@ li{
 
 .mission h3{
   opacity: 50%;
+  text-align: center;
+  color: #24ABE2;
+  font-size:25px;
 }
 
 .mission h3:hover{
@@ -157,14 +160,8 @@ li{
   font-size: 40px;
 }
 
-.mission h3{
-  text-align: center;
-  color: #24ABE2;
-  font-size:25px;
-}
-
 .projects{
-  margin-top:200px;
+  margin-top:400px;
   position:relative;
 }
 
@@ -174,9 +171,9 @@ li{
   color: black;
 }
 
-.projects h3{
+.projects li{
   padding:10px 20px;
-  text-align: center;
+  display:inline-block;
   color: #24ABE2;
   font-size: 30px;
   border-style:solid;
