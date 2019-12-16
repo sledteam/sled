@@ -134,7 +134,7 @@ li{
   font-size:25px;
   text-align:center;
   opacity:90%;
-  color:27693#0;
+  color:black;
   margin-top: 20px;
 }
 
@@ -174,11 +174,12 @@ li{
 .projects li{
   padding:10px 20px;
   display:inline-block;
-  color: #24ABE2;
+  color: #0E76BC;
   font-size: 30px;
   border-style:solid;
-  border-width:2px;
+  border-width:3px;
   border-radius:4px;
+  margin:20px 50px;
 }
 
 
