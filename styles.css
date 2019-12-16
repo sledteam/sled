@@ -31,6 +31,10 @@ a:active {
   to{font-size:100px;}
 }
 
+@keyframes bold{
+  from{font-size: 25px;}
+  to{font-size: 30px; color:#0E76BC;}
+}
 
 .header {
   background-color: #77e6ca;
@@ -159,6 +163,16 @@ li{
 
 .mission h3:hover{
   opacity:100%;
+}
+
+.ingenuiry .creativity .innovation{
+  animation-name:bold;
+  animation-duration: 2s;
+  animation-play-state: paused; 
+}
+
+.ingenuiry:hover .creativity:hover .innovation:hover{
+  animation-play-state: running;
 }
 
 .mission h1{
