@@ -26,7 +26,7 @@ a:active {
   cursor: pointer;
 }
 
-@logo{
+@keyframes logo{
   from{font-size:60px;}
   to{font-size:100px;}
 }
