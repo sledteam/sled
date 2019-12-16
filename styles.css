@@ -159,6 +159,7 @@ li{
   text-align: center;
   color: #24ABE2;
   font-size:25px;
+  display:inline-block;
 }
 
 .mission h3:hover{
