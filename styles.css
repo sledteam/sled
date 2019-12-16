@@ -123,6 +123,10 @@ li{
   position:relative;
 }
 
+.title:hover{
+  background-color:#daf5db;
+}
+
 .title h1{
   color: #0E76BC;
   font-size:80px;
@@ -143,6 +147,11 @@ li{
   top: 250px;
 }
 
+
+.mission:hover{
+  background-color:#daf5db;
+}
+
 .mission h3{
   opacity: 50%;
   text-align: center;
@@ -161,8 +170,13 @@ li{
 }
 
 .projects{
-  margin-top:600px;
-  position:relative;
+  margin-top: 600px;
+  position: relative;
+}
+
+
+.projects:hover{
+  background-color:#daf5db;
 }
 
 .projects h1{
@@ -172,11 +186,11 @@ li{
 }
 
 .projects li{
-  text-align:center;
-  display:block;
+  text-align: center;
+  display: block;
   color: #0E76BC;
   font-size: 30px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 
