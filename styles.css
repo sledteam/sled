@@ -33,7 +33,7 @@ a:active {
 
 @keyframes bold{
   from{font-size: 25px;}
-  to{font-size: 30px; color:#0E76BC;}
+  to{font-size: 40px; color:#0E76BC;}
 }
 
 .header {
@@ -169,6 +169,7 @@ li{
   animation-name:bold;
   animation-duration: 2s;
   animation-play-state: paused; 
+  float:left;
 }
 
 .ingenuiry:hover .creativity:hover .innovation:hover{
