@@ -161,7 +161,7 @@ li{
 }
 
 .projects{
-  margin-top:400px;
+  margin-top:600px;
   position:relative;
 }
 
@@ -172,12 +172,11 @@ li{
 }
 
 .projects li{
-  padding:10px 40px;
   text-align:center;
   display:block;
   color: #0E76BC;
   font-size: 30px;
-  margin:20px 20px;
+  margin-top:50px;
 }
 
 
