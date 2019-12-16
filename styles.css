@@ -173,14 +173,13 @@ li{
 
 .projects li{
   padding:10px 40px;
-  display:inline-block;
+  display:block;
   color: #0E76BC;
   font-size: 30px;
   border-style:solid;
   border-width:3px;
   border-radius:4px;
   margin:20px 20px;
-  line-height: 50px;
 }
 
 
