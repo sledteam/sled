@@ -130,12 +130,11 @@ li{
 
 .title h1{
   color: #0E76BC;
-  font-size:80px;
+  font-size:60px;
   margin:5px 10px 5px 30px;
   text-align: center;
   animation-name: logo;
-  animation-delay: 2s;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 
 .title h3{
