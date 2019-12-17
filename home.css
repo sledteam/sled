@@ -90,8 +90,6 @@
   display:block;
 }
 
-.follow img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.instagram .facebook{
+  margin:5px 10px;
 }
