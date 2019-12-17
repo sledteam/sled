@@ -92,15 +92,12 @@
   height:30px;
   width:30px;
   display:inline-block;
+  text-align:center;
 }
 
 .facebook img{
   height:30px;
   width:30px;
   display:inline-block;
-}
-
-.insta .facebook{
-  margin: auto;
-  width: 50%;
+  text-align:center;
 }
