@@ -77,7 +77,8 @@
   margin-top: 50px;
 }
 
-.follow{
+.social-icon{
+  display:block;
   text-align: center
 }
 
