@@ -1,6 +1,6 @@
 
 .main{
-  height: 1700px;
+  height: 1800px;
   width: 100%;
   margin: 0px 0px 0px 0px;
   position:relative;
@@ -81,23 +81,12 @@
   text-align: center;
   font-size: 40px;
   color: black;
+  margin-top:100px;
 }
 
-.follow h2{
-  font-size: 30px;
-  display:inline-block;
-}
-
-.insta img{
-  height:30px;
-  width:30px;
-  display:inline-block;
-  text-align:center;
-}
-
-.facebook img{
-  height:30px;
-  width:30px;
+.insta img .facebook img{
+  height:50px;
+  width:50px;
   display:inline-block;
   text-align:center;
 }
