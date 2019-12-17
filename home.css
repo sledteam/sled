@@ -1,7 +1,7 @@
 
 @keyframes logo{
   from{font-size:60px;}
-  to{font-size:100px;}
+  to{font-size:140px;}
 }
 
 @keyframes bold{
@@ -18,11 +18,11 @@
 
 .title h1{
   color: #0E76BC;
-  font-size:100px;
+  font-size:140px;
   margin:5px 10px 5px 30px;
   text-align: center;
   animation-name: logo;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 
 .title h3{
