@@ -84,7 +84,6 @@
 }
 
 .follow h2{
-  text-align: center;
   font-size: 30px;
 }
 
@@ -98,4 +97,8 @@
   height:30px;
   width:30px;
   display:inline-block;
+}
+
+.insta .facebook{
+  text-align: center;
 }
