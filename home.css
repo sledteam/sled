@@ -77,12 +77,6 @@
   margin-top: 50px;
 }
 
-.follow{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .follow h1{
   text-align: center;
   font-size: 40px;
@@ -92,5 +86,15 @@
 }
 
 .follow img{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram{
+  display:inline-block;
+}
+
+.facebook{
+  display:inline-block;
 }
