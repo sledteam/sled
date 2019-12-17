@@ -4,11 +4,6 @@
   to{font-size:120px;}
 }
 
-@keyframes bold{
-  from{font-size: 25px;}
-  to{font-size: 40px; color:#0E76BC;}
-}
-
 
 .title{
   display:block;
@@ -72,4 +67,15 @@
   color: #0E76BC;
   font-size: 30px;
   margin-top: 50px;
+}
+
+.follow h1{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+.follow h3{
+  text-align: center;
+  font-size: 30px;
 }
