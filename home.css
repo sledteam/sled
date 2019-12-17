@@ -86,4 +86,11 @@
 .follow h2{
   text-align: center;
   font-size: 30px;
+  float:left;
+}
+
+.insta img{
+  height:30px;
+  width:30px;
+  display:inline-block;
 }
