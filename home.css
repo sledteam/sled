@@ -1,4 +1,12 @@
 
+.main{
+  height: 1700px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  position:relative;
+  z-index:0;
+}
+
 @keyframes logo{
   from{font-size:60px;}
   to{font-size:120px;}
