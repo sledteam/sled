@@ -149,7 +149,9 @@ li{
 
 .footer-projects-list{
   float:left;
-  
+  position:relative;
+  left:200px;
+  top:10px;
 }
 
 .title-projects{
@@ -158,7 +160,7 @@ li{
 }
 
 .name-projects li{
-  font-size:15px;
+  font-size:18px;
   color:white;
   margin-top:10px;
 }
