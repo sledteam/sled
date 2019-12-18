@@ -162,11 +162,12 @@ li{
 .name-projects{
   position:relative;
   top:10px;
+  right:5px;
 }
 
 .name-projects li{
   font-size:18px;
-  color: white;
+  color: #ccfbff;
   margin-top:15px;
 }
 
