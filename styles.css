@@ -151,12 +151,12 @@ li{
   float:left;
   position:relative;
   left:200px;
-  top:10px;
+  top:8px;
 }
 
 .title-projects{
   font-size:35px;
-  color:white;
+  color:black;
 }
 
 .name-projects{
@@ -166,7 +166,7 @@ li{
 
 .name-projects li{
   font-size:18px;
-  color:white;
+  color: black;
   margin-top:15px;
 }
 
