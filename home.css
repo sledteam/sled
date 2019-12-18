@@ -58,9 +58,7 @@
 }
 
 .downArrow{
-	position: fixed;
-	bottom: 45%;
-	left: 50%;
+	position:relative;
 }
 
 .bounce {
