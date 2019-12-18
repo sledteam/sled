@@ -159,6 +159,11 @@ li{
   color:white;
 }
 
+.name-projects{
+  position:relative;
+  top:10px;
+}
+
 .name-projects li{
   font-size:18px;
   color:white;
