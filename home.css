@@ -55,7 +55,7 @@
 .mission h1{
   text-align: center;
   color: black;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .projects{
@@ -91,6 +91,7 @@
 }
 
 .social-icon img{
+  opacity:80%;
   width:80px;
   length:80px;
   margin:20px 20px;
