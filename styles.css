@@ -147,6 +147,25 @@ li{
   padding: 10px;
 }
 
+.footer-projects-list{
+  float:left;
+  
+}
+
+.title-projects{
+  font-size:25px;
+  color:white;
+}
+
+.name-projects{
+  font-size:15px;
+  color:white;
+  
+}
+
+
+
+
 a:link {
   text-decoration: none;
   cursor: pointer;
