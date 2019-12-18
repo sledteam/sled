@@ -15,7 +15,7 @@
 
 .title{
   display:block;
-  margin-top: 300px;
+  margin-top: 250px;
   position:relative;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .bounce {
-	animation: bounce 3s infinite;
+	animation: bounce 2s infinite;
 }
 
 .mission{
