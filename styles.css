@@ -153,14 +153,14 @@ li{
 }
 
 .title-projects{
-  font-size:25px;
+  font-size:30px;
   color:white;
 }
 
-.name-projects{
+.name-projects li{
   font-size:15px;
   color:white;
-  
+  margin-top:10px;
 }
 
 
