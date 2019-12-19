@@ -216,3 +216,12 @@ a:active {
 .footer a:active {
   color: #ccfbff;
 }
+
+@media screen and (max-width: 600px) {
+  .header-link{
+    display:none;
+  }
+  .footer-projectslist .footer-list{
+    display:none;
+  }
+}
