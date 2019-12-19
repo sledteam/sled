@@ -148,34 +148,8 @@ li{
   padding: 10px;
 }
 
-.footer-projectslist{
-  float:left;
-  position:relative;
-  left:225px;
-  top:6px;
-  margin-top:20px;
-  padding-right:30px;
-  border-right: 3px solid #ccfbff;
-}
 
-.title-projects{
-  font-size:35px;
-  color:white;
-}
 
-.name-projects{
-  position:relative;
-  top:10px;
-  right:5px;
-  border-left: 3px solid #ccfbff;
-}
-
-.name-projects li{
-  font-size:20px;
-  color: #ccfbff;
-  margin-top:15px;
-  padding-right:10px;
-}
 
 
 
@@ -217,11 +191,3 @@ a:active {
   color: #ccfbff;
 }
 
-@media screen and (max-width: 600px) {
-  .header-link{
-    display:none;
-  }
-  .footer-projectslist .footer-list{
-    display:none;
-  }
-}
