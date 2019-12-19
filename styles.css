@@ -147,11 +147,12 @@ li{
   padding: 10px;
 }
 
-.footer-projects-list{
+.footer-projectslist{
   float:left;
   position:relative;
   left:200px;
   top:6px;
+  border-right: 3px solid #ccfbff;
 }
 
 .title-projects{
@@ -171,9 +172,6 @@ li{
   margin-top:15px;
 }
 
-footer-projects-list{
-  border-right: 3px solid #ccfbff;
-}
 
 
 
