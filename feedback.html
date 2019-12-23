@@ -11,6 +11,7 @@
   <link rel="icon" href="https://raw.githubusercontent.com/spoon-haruki/TechBoard/master/Copy-of-LOGO-Title-Vertical.ico" />
   <link rel="stylesheet" href="https://sledteam.github.io/sled/styles.css">
   <title>JCBMS SLED Team / Feedback</title>
+  <script type="text/javascript">var submitted=false;</script>
   <style>
     .main{
      height: 2200px;
@@ -18,7 +19,10 @@
      margin: 0px 0px 0px 0px;
      position:relative;
      z-index:0;
-  }
+    }
+    .feedback{
+      margin-top:200px;
+    }
   </style>
   
 </head>
@@ -45,7 +49,8 @@
     
     
   <div class="main">
-     <form class="" action="https://docs.google.com/forms/d/e/1FAIpQLSfZS___KCiXt6lY1f0qb8JjcmsGomN6FgsnDRkPZEvlXghyVg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location=‘https://sledteam.github.io/sled/thankyou.html’;}”></iframe>
+     <form class="feedback" action="https://docs.google.com/forms/d/e/1FAIpQLSfZS___KCiXt6lY1f0qb8JjcmsGomN6FgsnDRkPZEvlXghyVg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
        <table>
          <tr>
            <td>Rate</td>
