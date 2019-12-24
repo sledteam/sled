@@ -64,14 +64,14 @@ li{
 
 
 .footer{
-  height: 300px;
+  height: 280px;
   background-color: #0E76BC;
   width: 100%;
   margin: 0px 0px 0px 0px;
 }
 
 .footer-logo{
-  padding: 15px 20px;
+  padding: 15px 10px;
   width: 300px;
   length: 90px;
   text-align:center;
@@ -80,16 +80,15 @@ li{
 .footer-list{
   display:block;
   margin:auto;
-  font-size: 10px;
+  font-size: 15px;
   color: #ccfbff;
-  float:right;
   padding: 2px 8px;
   text-align:center;
 }
 
 
 .footer-list li{
-  padding: 1px;
+  padding: 5px;
 }
 
 
