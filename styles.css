@@ -1,3 +1,142 @@
+@media screen and (max-width: 479px) {
+  
+html, body{
+  font-family: "Comfortaa";
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Settings of a tag for whole page*/
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 90%;
+  margin: 0px 0px 0px 0px;
+  z-index:10;
+}
+
+.header-logo{
+  float: left;
+  padding: 10px 30px;
+  width: 300px;
+  length: 33px;
+}
+
+li{
+  list-style: none;
+}
+
+.header li{
+  display:none;
+}
+
+
+
+
+.footer{
+  height: 330px;
+  background-color: #0E76BC;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.footer-logo{
+  float: left;
+  padding: 15px 20px;
+  width: 300px;
+  length: 90px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.footer-list{
+  display:block;
+  margin-top:10px;
+  font-size: 10px;
+  color: #ccfbff;
+  float:right;
+  padding: 2px 8px;
+  text-align:center;
+}
+
+
+.footer-list li{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer a:link {
+  color: #ccfbff;
+}
+
+.footer a:visited {
+  color: #ccfbff;
+}
+
+.footer a:hover {
+  color: #ccfbff;
+}
+
+.footer a:active {
+  color: #ccfbff;
+}
+
+
+}
+
+@media screen and (min-width: 767px) {
 html, body{
   font-family: "Comfortaa";
   height: 100%;
@@ -151,10 +290,6 @@ li{
 
 
 
-
-
-
-
 a:link {
   text-decoration: none;
   cursor: pointer;
@@ -189,5 +324,8 @@ a:active {
 
 .footer a:active {
   color: #ccfbff;
+}
+
+
 }
 
