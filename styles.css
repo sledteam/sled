@@ -88,8 +88,10 @@ li{
 
 
 .footer-list li{
-  margin:;
+  margin:auto;
   padding: 5px;
+  font-size:25px;
+  text-align:center;
 }
 
 
