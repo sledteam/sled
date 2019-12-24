@@ -55,7 +55,10 @@ li{
 .header li{
   display:none;
 }
-
+  
+  .header-link{
+    display:none;
+  }
 
 
 
