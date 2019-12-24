@@ -64,7 +64,7 @@ li{
 
 
 .footer{
-  height: 600px;
+  height: 300px;
   background-color: #0E76BC;
   width: 100%;
   margin: 0px 0px 0px 0px;
@@ -78,10 +78,18 @@ li{
   text-align:center;
 }
 
+
+.footer-logo img{
+  width: 300px;
+  length: 90px;
+  margin:auto;
+  text-align:center;
+}
+
 .footer-list{
   display:block;
   margin:auto;
-  font-size: 15px;
+  font-size: 20px;
   color: #ccfbff;
   padding: 2px 8px;
   text-align:center;
@@ -91,7 +99,7 @@ li{
 .footer-list li{
   margin:auto;
   padding: 5px;
-  font-size:15px;
+  font-size:20px;
   text-align:center;
 }
 
