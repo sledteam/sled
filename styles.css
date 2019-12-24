@@ -71,7 +71,6 @@ li{
 }
 
 .footer-logo{
-  float: left;
   padding: 15px 20px;
   width: 300px;
   length: 90px;
@@ -80,7 +79,7 @@ li{
 
 .footer-list{
   display:block;
-  margin-top:10px;
+  margin:auto;
   font-size: 10px;
   color: #ccfbff;
   float:right;
