@@ -64,7 +64,7 @@ li{
 
 
 .footer{
-  height: 350px;
+  height: 600px;
   background-color: #0E76BC;
   width: 100%;
   margin: 0px 0px 0px 0px;
@@ -81,7 +81,7 @@ li{
 .footer-list{
   display:block;
   margin:auto;
-  font-size: 20px;
+  font-size: 15px;
   color: #ccfbff;
   padding: 2px 8px;
   text-align:center;
@@ -91,7 +91,7 @@ li{
 .footer-list li{
   margin:auto;
   padding: 5px;
-  font-size:20px;
+  font-size:15px;
   text-align:center;
 }
 
