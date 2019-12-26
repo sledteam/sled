@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-  
+html { scroll-behavior: smooth; } 
 html, body{
   font-family: "Comfortaa";
   height: 100%;
@@ -150,6 +150,8 @@ a:active {
 }
 
 @media screen and (min-width: 600px) {
+html { scroll-behavior: smooth; } 
+  
 html, body{
   font-family: "Comfortaa";
   height: 100%;
