@@ -28,7 +28,7 @@ a:active {
   cursor: pointer;
 }
 
-.header {
+#header {
   background-color: black;
   height: 60px;
   position: fixed;
@@ -53,7 +53,7 @@ li{
   list-style: none;
 }
 
-.header li{
+#header li{
   display:none;
 }
   
@@ -63,7 +63,7 @@ li{
 
 
 
-.footer{
+#footer{
   height: 380px;
   background-color: #0E76BC;
   width: 100%;
