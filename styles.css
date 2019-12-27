@@ -31,7 +31,7 @@ a:active {
 .header {
   background-color: white;
   height: 60px;
-  border-bottom:3px solid black;
+  border-bottom:3px solid #0E76BC;
   position: fixed;
   top: 0px;
   bottom: 0px;
@@ -182,7 +182,7 @@ a:active {
 }
 
 .header {
-  border-bottom:3px solid black;
+  border-bottom:3px solid #0E76BC;
   background-color: white;
   height: 60px;
   position: fixed;
