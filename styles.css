@@ -1,3 +1,165 @@
+@media screen and (min-width: 600px) {
+html { scroll-behavior: smooth; } 
+  
+html, body{
+  font-family: "Comfortaa";
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Settings of a tag for whole page*/
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  border-bottom:3px solid #0E76BC;
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 90%;
+  margin: 0px 0px 0px 0px;
+  z-index:10;
+}
+
+.header-logo{
+  float: left;
+  padding: 10px 30px;
+  width: 300px;
+  length: 33px;
+}
+
+li{
+  list-style: none;
+}
+
+.header li:hover{
+  border-bottom: 2px solid #24ABE2;
+}
+
+.header a{
+  float:left;
+  display:inline-block;
+  color:black;
+}
+
+
+.header-link li{
+  float: left;
+  padding: 5px 60px;
+  font-size: 20px;
+  color:#24ABE2;
+}
+
+/* Dropdown Button */
+.droplist{
+  border: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #24ABE2;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 20;
+  margin-top: 29px;
+  height: 210px;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #0a84c2;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #24ABE2;
+}
+
+
+.footer{
+  height: 330px;
+  background-color: black;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.footer-logo{
+  float: left;
+  padding: 15px 20px;
+  width: 300px;
+  length: 90px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.footer-list{
+  margin-top:10px;
+  font-size: 20px;
+  color: #ccfbff;
+  float: right;
+  padding: 2px 8px;
+  margin-right: 40px;
+}
+
+.footer-list li{
+  padding: 10px;
+}
+
+.footer a:link {
+  color: #ccfbff;
+}
+
+.footer a:visited {
+  color: #ccfbff;
+}
+
+.footer a:hover {
+  color: #ccfbff;
+}
+
+.footer a:active {
+  color: #ccfbff;
+}
+
+}
+
 @media screen and (max-width: 600px) {
 html { scroll-behavior: smooth; } 
 html, body{
@@ -104,33 +266,6 @@ li{
   text-align:center;
 }
 
-
-
-
-
-
-
-
-a:link {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .footer a:link {
   color: #ccfbff;
 }
@@ -149,200 +284,3 @@ a:active {
 
 
 }
-
-@media screen and (min-width: 600px) {
-html { scroll-behavior: smooth; } 
-  
-html, body{
-  font-family: "Comfortaa";
-  height: 100%;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-}
-
-/* Settings of a tag for whole page*/
-a:link {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.header {
-  border-bottom:3px solid #0E76BC;
-  background-color: white;
-  height: 60px;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  opacity: 90%;
-  margin: 0px 0px 0px 0px;
-  z-index:10;
-}
-
-.header-logo{
-  float: left;
-  padding: 10px 30px;
-  width: 300px;
-  length: 33px;
-}
-
-li{
-  list-style: none;
-}
-
-.header li:hover{
-  background-color: #24ABE2;
-  color: white;
-}
-
-.header a{
-  float:left;
-  display:inline-block;
-  color:black;
-}
-
-
-.header-link li{
-  float: left;
-  padding: 5px 60px;
-  font-size: 20px;
-  color:#24ABE2;
-}
-
-/* Dropdown Button */
-.droplist{
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #24ABE2;
-  min-width: 240px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 20;
-  margin-top: 29px;
-  height: 210px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #0a84c2;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #24ABE2;
-}
-
-
-
-
-.footer{
-  height: 330px;
-  background-color: black;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-}
-
-.footer-logo{
-  float: left;
-  padding: 15px 20px;
-  width: 300px;
-  length: 90px;
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.footer-list{
-  margin-top:10px;
-  font-size: 20px;
-  color: #ccfbff;
-  float: right;
-  padding: 2px 8px;
-  margin-right: 40px;
-}
-
-
-.footer-list li{
-  padding: 10px;
-}
-
-
-
-
-a:link {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.footer a:link {
-  color: #ccfbff;
-}
-
-.footer a:visited {
-  color: #ccfbff;
-}
-
-.footer a:hover {
-  color: #ccfbff;
-}
-
-.footer a:active {
-  color: #ccfbff;
-}
-
-
-}
-
