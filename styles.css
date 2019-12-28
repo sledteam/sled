@@ -228,7 +228,7 @@ li{
 
 
 .footer{
-  height: 380px;
+  height: auto;
   background-color: black;
   width: 100%;
   margin: 0px 0px 0px 0px;
@@ -268,19 +268,19 @@ li{
 }
 
 .footer a:link {
-  color: #ccfbff;
+  color: white;
 }
 
 .footer a:visited {
-  color: #ccfbff;
+  color: white;
 }
 
 .footer a:hover {
-  color: #ccfbff;
+  color: white;
 }
 
 .footer a:active {
-  color: #ccfbff;
+  color: white;
 }
 
 
