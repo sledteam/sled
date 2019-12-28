@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
 html { scroll-behavior: smooth; } 
   
 html, body{
@@ -161,7 +161,7 @@ li{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 html { scroll-behavior: smooth; } 
 html, body{
   font-family: "Comfortaa";
