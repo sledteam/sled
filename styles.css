@@ -30,7 +30,7 @@ a:active {
 }
 
 .header {
-  border-bottom:3px solid #0E76BC;
+  border-bottom:2px solid #0E76BC;
   background-color: white;
   height: 60px;
   position: fixed;
