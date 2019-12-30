@@ -42,7 +42,6 @@ $(function(){
 <body>
   <div id = "header"></div>
   <div class="main">
-  <h1 id="welcome"></h1>
    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <script>
       GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
@@ -69,6 +68,8 @@ if (acct != null) {
       }
       document.getElementById("welcome").innerHTML ="java";
     </script>
+    <h1 id="welcome"></h1>
+
   </div>
   <div id="footer"></div>
 </body>
