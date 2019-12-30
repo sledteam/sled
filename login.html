@@ -42,8 +42,18 @@ $(function(){
 <body>
   <div id = "header"></div>
   <div class="main">
+  <h1 id="welcome"></h1>
    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <script>
+      GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
+if (acct != null) {
+  String personName = acct.getDisplayName();
+  String personGivenName = acct.getGivenName();
+  String personFamilyName = acct.getFamilyName();
+  String personEmail = acct.getEmail();
+  String personId = acct.getId();
+  Uri personPhoto = acct.getPhotoUrl();
+}
       function onSignIn(googleUser) {
         // Useful data for your client-side scripts:
         var profile = googleUser.getBasicProfile();
@@ -53,11 +63,11 @@ $(function(){
         console.log('Family Name: ' + profile.getFamilyName());
         console.log("Image URL: " + profile.getImageUrl());
         console.log("Email: " + profile.getEmail());
-
         // The ID token you need to pass to your backend:
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
       }
+      document.getElementById("welcome").innerHTML =personName;
     </script>
   </div>
   <div id="footer"></div>
