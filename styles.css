@@ -217,6 +217,7 @@ a:active {
   opacity: 90%;
   margin: 0px 0px 0px 0px;
   z-index:10;
+  overflow: hidden;
 }
 
 .header-logo{
@@ -241,11 +242,13 @@ a:active {
 
 /* Style the hamburger menu */
 .header a.icon {
-  background: blue;
+  background: white;
   display: block;
   position: absolute;
-  right: 1px;
-  top: 1px;
+  right: 2px;
+  top: 2px;
+  height:55px;
+  width:auto;
 }
   
 li{
