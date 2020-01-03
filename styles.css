@@ -51,18 +51,6 @@ a:active {
   length: 33px;
 }
 
-.header #myLinks {
-  display: none;
-}
-
-  #mylinks a{
-    display:none;
-  }
-
-/* Style the hamburger menu */
-.header a.icon {
-  display: none;
-}
   
 li{
   list-style: none;
@@ -220,26 +208,12 @@ a:active {
   z-index:10;
 }
 
-.header-logo
+.header-logo{
   float: left;
   margin-left:20px;
   padding: 10px 30px;
   width: 300px;
   length: 33px;
-}
-
-.header #myLinks {
-  display: none;
-}
-    
-    
-    
- 
-
-/* Style the hamburger menu */
-.header a.icon {
-  display: none;
-  position: absolute;
 }
   
 li{
