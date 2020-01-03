@@ -42,7 +42,6 @@ a:active {
   opacity: 90%;
   margin: 0px 0px 0px 0px;
   z-index:10;
-  overflow: hidden;
 }
 
 .header-logo{
@@ -219,10 +218,9 @@ a:active {
   opacity: 90%;
   margin: 0px 0px 0px 0px;
   z-index:10;
-  overflow: hidden;
 }
 
-.header-logo{
+.header-logo
   float: left;
   margin-left:20px;
   padding: 10px 30px;
@@ -233,24 +231,15 @@ a:active {
 .header #myLinks {
   display: none;
 }
-
-.header a {
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
+    
+    
+    
+ 
 
 /* Style the hamburger menu */
 .header a.icon {
-  background: white;
-  display: block;
+  display: none;
   position: absolute;
-  right: 2px;
-  top: 2px;
-  height:55px;
-  width:auto;
 }
   
 li{
