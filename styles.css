@@ -50,6 +50,27 @@ a:active {
   length: 33px;
 }
 
+.header #myLinks {
+  display: none;
+}
+
+.header a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.header a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+  
 li{
   list-style: none;
 }
