@@ -6,6 +6,7 @@ html, body{
   height: 100%;
   width: 100%;
   margin: 0px 0px 0px 0px;
+  z-index:-10;
 }
 
 /* Settings of a tag for whole page*/
