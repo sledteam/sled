@@ -1,59 +1,11 @@
 @media screen and (min-width: 1000px) {
-html { scroll-behavior: smooth; } 
-  
 html, body{
   font-family: "Comfortaa";
-  height: 100%;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  z-index:-10;
-}
-
-/* Settings of a tag for whole page*/
-a:link {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:visited {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:active {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.header {
-  border-bottom:2px solid #0E76BC;
-  background-color: white;
-  height: 60px;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  opacity: 90%;
-  margin: 0px 0px 0px 0px;
-  z-index:10;
 }
 
 .header-logo{
   float: left;
   padding: 10px 30px;
-  width: 300px;
-  length: 33px;
-}
-
-  
-li{
-  list-style: none;
 }
 
 .header li:hover{
@@ -62,7 +14,7 @@ li{
 
 .header a{
   float:left;
-  display:inline-block;
+  display:block;
   color:black;
 }
 
@@ -117,18 +69,11 @@ li{
 }
 
 
-.footer{
-  height: 330px;
-  background-color: black;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-}
-
 .footer-logo{
   float: left;
   padding: 15px 20px;
   width: 300px;
-  length: 90px;
+  height: 90px;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -146,31 +91,70 @@ li{
   padding: 10px;
 }
 
-.footer a:link {
-  color: #ccfbff;
-}
-
-.footer a:visited {
-  color: #ccfbff;
-}
-
-.footer a:hover {
-  color: #ccfbff;
-}
-
-.footer a:active {
-  color: #ccfbff;
-}
-
 }
 
 @media screen and (max-width: 1000px) {
-html { scroll-behavior: smooth; } 
 html, body{
   font-family: Nunito;
+}
+
+
+.header-logo{
+  text-align:center;
+  margin-left:20px;
+  padding: 10px 30px;
+}
+
+.header li{
+  display:none;
+}
+  
+.header-link{
+ display:none;
+}
+
+.footer-logo{
+  padding: 15px 10px;
+  width: 300px;
+  height: 90px;
+  margin:auto;
+  text-align:center;
+}
+
+.footer-logo img{
+  width: 300px;
+  height: 90px;
+  margin:auto;
+  text-align:center;
+}
+
+.footer-list{
+  display:block;
+  margin:auto;
+  font-size: 20px;
+  color: #ccfbff;
+  padding: 2px 8px;
+  text-align:center;
+}
+
+.footer-list li{
+  margin:auto;
+  padding: 5px;
+  font-size:20px;
+  text-align:center;
+}
+
+}
+
+
+/* CSS for default design */
+html { scroll-behavior: smooth; } 
+
+html, body{
   height: 100%;
   width: 100%;
   margin: 0px 0px 0px 0px;
+  z-index:-10;
 }
 
 /* Settings of a tag for whole page*/
@@ -195,9 +179,9 @@ a:active {
 }
 
 .header {
+  border-bottom:2px solid #0E76BC;
   background-color: white;
   height: 60px;
-  border-bottom:3px solid #0E76BC;
   position: fixed;
   top: 0px;
   bottom: 0px;
@@ -209,26 +193,13 @@ a:active {
 }
 
 .header-logo{
-  float: left;
-  margin-left:20px;
-  padding: 10px 30px;
   width: 300px;
-  length: 33px;
+  height: 33px;
 }
   
 li{
   list-style: none;
 }
-
-.header li{
-  display:none;
-}
-  
-  .header-link{
-    display:none;
-  }
-
-
 
 .footer{
   height: auto;
@@ -237,54 +208,18 @@ li{
   margin: 0px 0px 0px 0px;
 }
 
-.footer-logo{
-  padding: 15px 10px;
-  width: 300px;
-  length: 90px;
-  margin:auto;
-  text-align:center;
-}
-
-
-.footer-logo img{
-  width: 300px;
-  length: 90px;
-  margin:auto;
-  text-align:center;
-}
-
-.footer-list{
-  display:block;
-  margin:auto;
-  font-size: 20px;
-  color: #ccfbff;
-  padding: 2px 8px;
-  text-align:center;
-}
-
-
-.footer-list li{
-  margin:auto;
-  padding: 5px;
-  font-size:20px;
-  text-align:center;
-}
-
 .footer a:link {
-  color: white;
+  color: #ccfbff;
 }
 
 .footer a:visited {
-  color: white;
+  color: #ccfbff;
 }
 
 .footer a:hover {
-  color: white;
+  color: #ccfbff;
 }
 
 .footer a:active {
-  color: white;
-}
-
-
+  color: #ccfbff;
 }
