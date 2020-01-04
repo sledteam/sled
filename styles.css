@@ -91,6 +91,83 @@ html, body{
   padding: 10px;
 }
 
+/* CSS for default design */
+html { scroll-behavior: smooth; } 
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  z-index:-10;
+}
+
+/* Settings of a tag for whole page*/
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  border-bottom:2px solid #0E76BC;
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 90%;
+  margin: 0px 0px 0px 0px;
+  z-index:10;
+}
+
+.header-logo{
+  width: 300px;
+  height: 33px;
+}
+  
+li{
+  list-style: none;
+}
+
+.footer{
+  height: auto;
+  background-color: black;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.footer a:link {
+  color: #ccfbff;
+}
+
+.footer a:visited {
+  color: #ccfbff;
+}
+
+.footer a:hover {
+  color: #ccfbff;
+}
+
+.footer a:active {
+  color: #ccfbff;
+}
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -142,8 +219,6 @@ html, body{
   padding: 5px;
   font-size:20px;
   text-align:center;
-}
-
 }
 
 
@@ -222,4 +297,6 @@ li{
 
 .footer a:active {
   color: #ccfbff;
+}
+
 }
