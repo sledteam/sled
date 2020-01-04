@@ -73,7 +73,7 @@ html, body{
   float: left;
   padding: 15px 20px;
   width: 300px;
-  height: 90px;
+  height: auto;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -138,7 +138,7 @@ a:active {
 
 .header-logo{
   width: 300px;
-  height: 33px;
+  height: auto;
 }
   
 li{
@@ -200,7 +200,7 @@ html, body{
 
 .footer-logo img{
   width: 300px;
-  height: 90px;
+  height: auto;
   margin:auto;
   text-align:center;
 }
@@ -269,7 +269,7 @@ a:active {
 
 .header-logo{
   width: 300px;
-  height: 33px;
+  height: auto;
 }
   
 li{
