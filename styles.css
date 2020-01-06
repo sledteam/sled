@@ -1,4 +1,5 @@
 @media screen and (min-width: 1000px) {
+
 html, body{
   font-family: "Comfortaa";
 }
@@ -91,61 +92,7 @@ html, body{
   padding: 10px;
 }
 
-}
-
-@media screen and (max-width: 1000px) {
-html, body{
-  font-family: Nunito;
-}
-
-
-.header-logo{
-  text-align:center;
-  margin-left:20px;
-  padding: 10px 30px;
-}
-
-.header li{
-  display:none;
-}
   
-.header-link{
- display:none;
-}
-
-.footer-logo{
-  padding: 15px 10px;
-  width: 300px;
-  height: 90px;
-  margin:auto;
-  text-align:center;
-}
-
-.footer-logo img{
-  width: 300px;
-  height: auto;
-  margin:auto;
-  text-align:center;
-}
-
-.footer-list{
-  display:block;
-  margin:auto;
-  font-size: 20px;
-  color: #ccfbff;
-  padding: 2px 8px;
-  text-align:center;
-}
-
-.footer-list li{
-  margin:auto;
-  padding: 5px;
-  font-size:20px;
-  text-align:center;
-}
-
-}
-
 /* CSS for default design */
 html { scroll-behavior: smooth; } 
 
@@ -200,7 +147,7 @@ li{
   list-style: none;
 }
 
-#footer{
+.footer{
   height: auto;
   background-color: black;
   width: 100%;
@@ -221,4 +168,61 @@ li{
 
 .footer a:active {
   color: #ccfbff;
+}
+
+  
+  
+}
+
+@media screen and (max-width: 1000px) {
+html, body{
+  font-family: Nunito;
+}
+
+
+.header-logo{
+  text-align:center;
+  margin-left:20px;
+  padding: 10px 30px;
+}
+
+.header li{
+  display:none;
+}
+  
+.header-link{
+ display:none;
+}
+
+.footer-logo{
+  padding: 15px 10px;
+  width: 300px;
+  height: 90px;
+  margin:auto;
+  text-align:center;
+}
+
+.footer-logo img{
+  width: 300px;
+  height: auto;
+  margin:auto;
+  text-align:center;
+}
+
+.footer-list{
+  display:block;
+  margin:auto;
+  font-size: 20px;
+  color: #ccfbff;
+  padding: 2px 8px;
+  text-align:center;
+}
+
+.footer-list li{
+  margin:auto;
+  padding: 5px;
+  font-size:20px;
+  text-align:center;
+}
+
 }
