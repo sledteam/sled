@@ -73,7 +73,7 @@ html, body{
 .footer-logo{
   float: left;
   padding: 15px 20px;
-  width: 300px;
+  width: 400px;
   height: auto;
   margin-left: 30px;
   margin-top: 20px;
@@ -82,7 +82,7 @@ html, body{
 .footer-list{
   margin-top:10px;
   font-size: 20px;
-  color: #ccfbff;
+  color: white;
   float: right;
   padding: 2px 8px;
   margin-right: 40px;
