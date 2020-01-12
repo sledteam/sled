@@ -212,6 +212,13 @@ li{
   margin: 0px 0px 0px 0px;
 }
 
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+}
+
 .footer a:link {
   color: #ccfbff;
 }
