@@ -218,6 +218,7 @@ li{
   height:50px;
   width: 50px;
   text-decoration: none;
+  text-align: center;
 }
 
 .fa:hover {
@@ -225,12 +226,12 @@ li{
   color:white;
 }
 
-.fa-facebook fa{
+.fa-facebook{
   color: #3b5998;
   padding-left: 10px;
 }
 
-.fa-instagram fa{
+.fa-instagram{
   color: #833ab4;
 }
 
