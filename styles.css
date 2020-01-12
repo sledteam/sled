@@ -223,18 +223,20 @@ li{
 
 .fa:hover {
   opacity: 0.7;
+  color:white;
 }
 
 .fa-facebook{
-  color: white;
+  color: #3b5998;
+  padding-left: 10px;
 }
 
 .fa-instagram{
-  color: white;
+  color: #833ab4;
 }
 
 .fa-twitter{
-  color: white;
+  color: #1da1f2;
 }
 
 .footer a:link {
