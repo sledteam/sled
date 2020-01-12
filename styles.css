@@ -214,7 +214,8 @@ li{
 
 .fa {
   padding: 10px;
-  font-size: 140px;
+  font-size: 30px;
+  height:70px;
   width: 70px;
   text-decoration: none;
   border-radius: 50%;
