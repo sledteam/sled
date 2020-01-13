@@ -214,7 +214,7 @@ li{
 
 .fa {
   padding: 10px;
-  font-size: 50px;
+  font-size: 70px !important;
   height:50px;
   width: 50px;
   text-decoration: none;
@@ -227,16 +227,16 @@ li{
 }
 
 .fa-facebook{
-  color: #3b5998;
+  color: #3b5998 !important;
   padding-left: 10px;
 }
 
 .fa-instagram{
-  color: #833ab4;
+  color: #833ab4 !important;
 }
 
 .fa-twitter{
-  color: #1da1f2;
+  color: #1da1f2 !important;
 }
 
 .footer a:link {
