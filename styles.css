@@ -214,7 +214,7 @@ li{
 
 .fa {
   padding: 10px;
-  font-size: 70px !important;
+  font-size: 40px !important;
   height:50px;
   width: 50px;
   text-decoration: none;
@@ -232,11 +232,15 @@ li{
 }
 
 .fa-instagram{
-  color: #833ab4 !important;
+  color: white !important;
 }
 
 .fa-twitter{
   color: #1da1f2 !important;
+}
+
+.fa-envelope{
+  color:white !Important;
 }
 
 .footer a:link {
