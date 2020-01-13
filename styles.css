@@ -212,7 +212,7 @@ li{
   margin: 0px 0px 0px 0px;
 }
 
-.fab {
+.fab .fas{
   padding: 10px;
   font-size: 40px !important;
   height:50px;
