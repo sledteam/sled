@@ -212,7 +212,7 @@ li{
   margin: 0px 0px 0px 0px;
 }
 
-.fa{
+.fab{
   padding: 10px;
   font-size: 40px !important;
   height:50px;
@@ -221,7 +221,21 @@ li{
   text-align: center;
 }
 
-.fa:hover {
+.fas{
+  padding: 10px;
+  font-size: 40px !important;
+  height:50px;
+  width: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fab:hover {
+  opacity: 0.7;
+  color:white;
+}
+
+.fas:hover {
   opacity: 0.7;
   color:white;
 }
