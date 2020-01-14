@@ -81,7 +81,7 @@ html, body{
 
 .footer-list{
   margin-top:7px;
-  font-size: 22px;
+  font-size: 25px;
   color: white;
   float: right;
   padding: 2px 8px;
@@ -90,6 +90,7 @@ html, body{
 
 .footer-list li{
   padding: 7px;
+  font-size: 25px;
 }
  
 }
@@ -135,16 +136,16 @@ html, body{
 .footer-list{
   display:block;
   margin:auto;
-  font-size: 23px;
+  font-size: 25px;
   color: #ccfbff;
-  padding-top: 3px;
+  padding-top: -5px;
   text-align:center;
 }
 
 .footer-list li{
   margin:auto;
-  padding: 3px;
-  font-size:20px;
+  padding: 2px;
+  font-size:25px;
   text-align:center;
 }
 
