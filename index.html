@@ -159,21 +159,13 @@ $(function(){
   display:block;
 }
 
-.social-icon{
-  display: flex;
-  justify-content: center;
-}
-
-.social-icon img{
-  opacity:80%;
-  width:80px;
-  length:80px;
-  margin:20px 20px;
-}
-	 
-.social-icon{
+#social{
   margin-bottom:80px;
-}	  
+  padding:5px 10px;
+  text-align:center;
+  font-size:80px !important;
+}  
+
 </style>
 </head>
 
@@ -208,8 +200,9 @@ $(function(){
     <div class="follow">
       <h1>Follow us on</h1>
       <div class="social-icon">
-        <a href="https://instagram.com/jcbmssledteam/"><img src="https://i.ibb.co/DVfJwK5/iconfinder-1-Instagram-colored-svg-1-5296765.png" alt="insta" class="instagram"/></a>
-        <a href="https://www.facebook.com/jcbooth.sled"><img src="https://i.ibb.co/zJ0NCRG/iconfinder-Colored-Facebook3-svg-5365678.png" alt="faceook" class="facebook" /></a>
+        <a href="https://instagram.com/jcbmssledteam/" class="fab fa-instagram" id="social"></a>
+	<a href="https://www.twitter.com/jcbmssledteam" class="fab fa-twitter" id="social"></a>
+        <a href="https://www.facebook.com/jcbooth.sled" class="fab fa-facebook" id="social"></a>
       </div>
     </div>
   </div>
