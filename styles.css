@@ -123,10 +123,11 @@ html, body{
   text-align:center;
 }
 
-.footer-logo img{
+.footer img{
   width: 300px;
   height: auto;
-  margin:auto;
+  margin-right:auto;
+  margin-left:auto;
   text-align:center;
 }
 
@@ -241,7 +242,7 @@ li{
 }
 
 .fa-angle-up{
-  font-size:30px !important;
+  font-size:38px !important;
   position:relative;
   top:5px;
 }
