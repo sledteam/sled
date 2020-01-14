@@ -212,6 +212,10 @@ li{
   margin: 0px 0px 0px 0px;
 }
 
+.footer li{
+  color:white !important;
+}
+
 .fab{
   padding: 10px;
   font-size: 40px !important;
