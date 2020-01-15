@@ -92,6 +92,24 @@ html, body{
   padding: 7px;
   font-size: 25px;
 }
+  
+.fab{
+  padding: 10px;
+  font-size: 40px !important;
+  height:50px;
+  width: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fas{
+  padding: 10px;
+  font-size: 40px !important;
+  height:50px;
+  width: 50px;
+  text-decoration: none;
+  text-align: center;
+}
  
 }
 
@@ -144,6 +162,24 @@ html, body{
   padding: 1px;
   font-size:23px;
   text-align:center;
+}
+
+.fab{
+  padding: 5px;
+  font-size: 30px !important;
+  height:40px;
+  width: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fas{
+  padding: 5px;
+  font-size: 30px !important;
+  height:40px;
+  width: 40px;
+  text-decoration: none;
+  text-align: center;
 }
 
 }
@@ -214,24 +250,6 @@ li{
 
 .footer li{
   color:white !important;
-}
-
-.fab{
-  padding: 10px;
-  font-size: 40px !important;
-  height:50px;
-  width: 50px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.fas{
-  padding: 10px;
-  font-size: 40px !important;
-  height:50px;
-  width: 50px;
-  text-decoration: none;
-  text-align: center;
 }
 
 .fab:hover {
