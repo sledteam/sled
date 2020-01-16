@@ -3,10 +3,3 @@ https://sledteam.github.io/sled/about
 https://sledteam.github.io/sled/members
 https://sledteam.github.io/sled/projects
 https://sledteam.github.io/sled/blog
-https://sledteam.github.io/sled/chromebook
-https://sledteam.github.io/sled/keepthecolor
-https://sledteam.github.io/sled/hoc
-https://sledteam.github.io/sled/subhelp
-https://sledteam.github.io/sled/studenttour
-https://sledteam.github.io/sled/feedback
-https://sledteam.github.io/sled/thankyou
