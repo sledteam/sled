@@ -242,7 +242,7 @@ li{
 
 .footer{
   height: auto;
-  min-height:22vw;
+  min-height:300px;
   background-color: #000000 !important;
   width: 100%;
   margin: 0px 0px 0px 0px;
