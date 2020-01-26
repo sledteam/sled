@@ -2,4 +2,3 @@ https://sledteam.github.io/sled/
 https://sledteam.github.io/sled/about
 https://sledteam.github.io/sled/members
 https://sledteam.github.io/sled/projects
-https://sledteam.github.io/sled/blog
