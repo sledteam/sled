@@ -244,6 +244,7 @@ li{
   min-height:300px;
   background-color: white !important;
   width: 95vw;
+  margin-right:2.5vw;
   text-align:center;
   margin: 0px 0px 0px 0px;
   z-index:20 !important;
