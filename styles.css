@@ -143,10 +143,7 @@ html, body{
 }
 
 .footer img{
-  width: 300px;
-  height: auto;
-  display: block;
-  text-align:center;
+  display:none;
 }
 
 .footer-list{
@@ -155,6 +152,8 @@ html, body{
   color: #ccfbff;
   padding-top: -5px;
   text-align:center;
+  position:relative;
+  top:50px;
 }
 
 .footer-list li{
@@ -243,10 +242,11 @@ li{
 .footer{
   height: auto;
   min-height:300px;
-  background-color: #000000 !important;
+  background-color: white !important;
   width: 100%;
   margin: 0px 0px 0px 0px;
   z-index:20 !important;
+  border-top:2px solid #0E76BC;
 }
 
 .footer li{
