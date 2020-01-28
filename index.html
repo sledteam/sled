@@ -74,12 +74,19 @@ $(function(){
   font-size:60px !important;
 }	
 	
-.group-photo{
-  width:60vw;
-  margin-top:100px;
-  text-align:center;
-  margin-left:20vw;
-}	
+.parallax {
+  /* The image used */
+  background-image: url("https://i.ibb.co/qDgD2Q8/Screenshot-2020-01-21-at-6-39-18-PM.png");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .projects{
   margin-top: 200px;
@@ -138,7 +145,7 @@ $(function(){
     <div class="mission">
     	<h1>Improving the Warrior Community Experience with <br><span class="ingenuity">Ingenuity</span>, <span class="creativity">Creativity</span>, and <span class="innovation">Innovation</span></h1>
     </div>
-    <img alt="" src="https://i.ibb.co/qDgD2Q8/Screenshot-2020-01-21-at-6-39-18-PM.png" class="group-photo"/>
+    <div class="parallax"></div>
     <div class="projects">
 	 <h1>Our Projects</h1>
     	 <div id="projects"><a href="https://sledteam.github.io/sled/chromebook"><img src="https://i.ibb.co/LZcGpjD/Chromebook-Helpdesk-tile.png" alt="Chromebook-Helpdesk"></a></div>
