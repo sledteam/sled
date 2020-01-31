@@ -291,6 +291,13 @@ li{
   color: #FF0000 !important;
 }
 
+fa-comment-alt{
+  width:10px;
+  height:10px;
+  border: 1px solid red;
+  border-radius:5px;
+}
+
 .footer a:link {
   color: black;
 }
