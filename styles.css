@@ -304,6 +304,11 @@ li{
   color:#24ABE2;
 }
 
+.fa-comment-alt:hover{
+  background-color:white;
+  opacity:60%;
+}
+
 .footer a:link {
   color: black;
 }
