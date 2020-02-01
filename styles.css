@@ -293,10 +293,10 @@ li{
 
 .fa-comment-alt{
   font-size:40px !important;
-  width:80px;
-  height:80px;
+  width:60px;
+  height:60px;
   border: 1px solid red;
-  border-radius:40px;
+  border-radius:30px;
 }
 
 .footer a:link {
