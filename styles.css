@@ -307,6 +307,7 @@ li{
 .fa-comment-alt:hover{
   background-color:white;
   opacity:60%;
+  border: 1px solid white;
 }
 
 .footer a:link {
