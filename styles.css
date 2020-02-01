@@ -292,9 +292,9 @@ li{
 }
 
 .fa-comment-alt{
-  font-size:8px !important;
-  width:10px;
-  height:10px;
+  font-size:20px !important;
+  width:30px;
+  height:30px;
   border: 1px solid red;
   border-radius:5px;
 }
