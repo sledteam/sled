@@ -284,7 +284,7 @@ li{
 }
 
 .fa-envelope{
-  color:white !Important;
+  color:black !Important;
 }
 
 .fa-youtube{
@@ -292,11 +292,11 @@ li{
 }
 
 .fa-comment-alt{
-  font-size:20px !important;
-  width:30px;
-  height:30px;
+  font-size:40px !important;
+  width:80px;
+  height:80px;
   border: 1px solid red;
-  border-radius:5px;
+  border-radius:40px;
 }
 
 .footer a:link {
