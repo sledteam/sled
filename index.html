@@ -41,9 +41,36 @@ $(function(){
 </script>
 <style>
 @media only screen and (min-width: 1000px){
+  .parallax {
+    /* The image used */
+    background-image: url("https://i.ibb.co/r272XPt/2019-2020.png");
+    /* Set a specific height */
+    min-height: 400px; 
+     opacity:60%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #projects img{
+	text-align:center;
+	display:block;
+	width:32vw;
+  }
 }
 	
 @media only screen and (max-width: 1000px){
+   .parallax {
+    display:none;
+  }
+  #projects img{
+	text-align:center;
+	display:block;
+	width:90vw;
+  } 
 }
 
 .main{
@@ -76,20 +103,7 @@ $(function(){
   font-size:60px !important;
 }	
 	
-.parallax {
-  /* The image used */
-  background-image: url("https://i.ibb.co/r272XPt/2019-2020.png");
-  /* Set a specific height */
-  min-height: 400px; 
-  opacity:60%;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .projects{
   position: relative;
@@ -103,11 +117,7 @@ $(function(){
   color: black;
 }
 
-#projects img{
-	text-align:center;
-	display:block;
-	width:32vw;
-}
+
 	
 #projects{
 	text-align:center;
