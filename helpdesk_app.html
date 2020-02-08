@@ -29,6 +29,10 @@ var screen = 0 ;
 function next{
   
 }
+  
+function back{
+  
+}
 </script>
 <style>
 .main{
@@ -49,7 +53,17 @@ function next{
   color:white;
   text-decoration: none;
   border:none;
-  background-color:#E67E22;
+  background-color:#4285F4;
+  font-size:20px;
+  padding:5px 10px;
+  border-radius:5px;
+} 
+  
+#back{
+  color:white;
+  text-decoration: none;
+  border:none;
+  background-color:#34A853;
   font-size:20px;
   padding:5px 10px;
   border-radius:5px;
@@ -76,6 +90,7 @@ function next{
   <div class="tutorial">
     <embed class="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px">
     <br>
+    <button type="button" onclick="back" id="back">Next</button>
     <button type="button" onclick="next" id="next">Next</button>
   </div>
 </div>
