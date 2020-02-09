@@ -27,12 +27,12 @@ $(function(){
   
 <script>
 var screen = 0 ;
-function next{
+function next(){
   screen = screen+1 ;
   document.getElementById("instruction").src = "https://sledteam.github.io/sled/helpdesk_tutorial_2";
 }
   
-function back{
+function back(){
   screen = screen-1 ;
 }
 </script>
@@ -95,8 +95,8 @@ function back{
   <div class="tutorial">
     <embed id="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px">
     <br>
-    <button type="button" onclick="back" id="back">Back</button>
-    <button type="button" onclick="next" id="next">Next</button>
+    <button type="button" onclick="back()" id="back">Back</button>
+    <button type="button" onclick="next()" id="next">Next</button>
   </div>
 </div>
     
