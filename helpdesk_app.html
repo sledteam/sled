@@ -24,16 +24,19 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script>
+  
 <script>
 var screen = 0 ;
 function next{
   screen = screen+1 ;
+  document.getElementById("instruction").src = "https://sledteam.github.io/sled/helpdesk_tutorial_2";
 }
   
 function back{
   screen = screen-1 ;
 }
 </script>
+  
 <style>
 .main{
   height: 600px;
@@ -71,7 +74,7 @@ function back{
   margin-right:300px;
 }  
   
-.instruction{
+#instruction{
   display:inline-block;
   text-align:center;
 }
@@ -90,7 +93,7 @@ function back{
     <h1>Welcome to Chromebook Helpdesk</h1>
   </div>
   <div class="tutorial">
-    <embed class="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px">
+    <embed id="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px">
     <br>
     <button type="button" onclick="back" id="back">Back</button>
     <button type="button" onclick="next" id="next">Next</button>
