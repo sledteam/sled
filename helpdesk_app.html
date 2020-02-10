@@ -31,6 +31,8 @@ function next(){
   screen = screen+1 ;
   if(screen == 0){
     document.getElementById("back").style.display = "none" ;
+  }else{
+    document.getElementById("back").style.display = "inline-block" ;
   }
   switchScreen(screen);
 }
@@ -39,6 +41,8 @@ function back(){
   screen = screen-1 ;
   if(screen == 0){
     document.getElementById("back").style.display = "none" ;
+  }else{
+    document.getElementById("back").style.display = "inline-block" ;
   }
   switchScreen(screen);
 }  
@@ -80,7 +84,7 @@ function switchScreen(tutorialScreen){
   font-size:25px;
   padding:5px 10px;
   border-radius:2px;
-  margin-left:300px;
+  margin-left:600px;
 } 
   
 #back{
@@ -91,7 +95,6 @@ function switchScreen(tutorialScreen){
   font-size:25px;
   padding:5px 10px;
   border-radius:2px;
-  margin-right:300px;
 }  
   
 #instruction{
