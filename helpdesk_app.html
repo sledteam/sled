@@ -24,9 +24,18 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script>
+ <script>
+var screen = 0 ;
   
-
+function next(){
+  screen = screen+1 ;
+  document.getElementById("instruction").src = "https://sledteam.github.io/sled/helpdesk_tutorial_2";
+}
   
+function back(){
+  screen = screen-1 ;
+}
+</script>
 <style>
 .main{
   height: 600px;
@@ -92,25 +101,13 @@ $(function(){
     <h1>Welcome to Chromebook Helpdesk</h1>
   </div>
   <div class="tutorial">
-    <iframe id="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px">
-    <button onclick="back()">Back</button>
-      
-    <button onclick="next()">Next</button>
+    <iframe id="instruction" src="https://sledteam.github.io/sled/helpdesk_tutorial_1" height="400px" width="900px"></iframe>
+    <br>
+    <button onclick="back()" id="next">Back</button>
+    <button onclick="next()" id="back">Next</button>
   </div>
 </div>
    
   <div id="footer"></div>
-  <script>
-var screen = 0 ;
-  
-function next(){
-  screen = screen+1 ;
-  document.getElementById("instruction").src = "https://sledteam.github.io/sled/helpdesk_tutorial_2";
-}
-  
-function back(){
-  screen = screen-1 ;
-}
-</script>
 </body>
 </html>
