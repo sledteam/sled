@@ -29,11 +29,17 @@ var screen = 0 ;
   
 function next(){
   screen = screen+1 ;
+  if(screen == 0){
+    document.getElementById("back").style.display = "none" ;
+  }
   switchScreen(screen);
 }
   
 function back(){
   screen = screen-1 ;
+  if(screen == 0){
+    document.getElementById("back").style.display = "none" ;
+  }
   switchScreen(screen);
 }  
    
