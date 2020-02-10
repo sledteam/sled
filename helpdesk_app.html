@@ -29,12 +29,21 @@ var screen = 0 ;
   
 function next(){
   screen = screen+1 ;
-  document.getElementById("instruction").src = "https://sledteam.github.io/sled/helpdesk_tutorial_2";
+  var url="url";
+  switch(screen){
+    case 0:
+      url="https://sledteam.github.io/sled/helpdesk_tutorial_1" ;
+      break;
+    case 1:
+      url="https://sledteam.github.io/sled/helpdesk_tutorial_2" ;
+      break;
+  }
+  document.getElementById("instruction").src = url;
 }
   
 function back(){
   screen = screen-1 ;
-}
+}  
 </script>
 <style>
 .main{
