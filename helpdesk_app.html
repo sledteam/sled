@@ -29,8 +29,18 @@ var screen = 0 ;
   
 function next(){
   screen = screen+1 ;
-  var url="url";
-  switch(screen){
+  switchScreen(screen);
+}
+  
+function back(){
+  screen = screen-1 ;
+  switchScreen(screen);
+}  
+   
+function switchScreen(tutorialScreen){
+  switch(tutorialScreen){
+    default:
+      break;
     case 0:
       url="https://sledteam.github.io/sled/helpdesk_tutorial_1" ;
       break;
@@ -40,10 +50,6 @@ function next(){
   }
   document.getElementById("instruction").src = url;
 }
-  
-function back(){
-  screen = screen-1 ;
-}  
 </script>
 <style>
 .main{
