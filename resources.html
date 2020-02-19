@@ -39,6 +39,7 @@ $(function(){
   z-index:0;
   top:80px;
   min-height:1800px;
+    text-align:center;
 }	
 .title{
   text-align:center;
@@ -52,14 +53,42 @@ $(function(){
 .contents{
   text-align:center;
   width:80vw;
-  margin-left:10vw;
 }  
-#tab{
-  display:inline-block;
-  font-size:30px;
-  padding:5px 10px;
-  text-align:center;
-}  
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 </style>
 </head>
 <body>
@@ -68,11 +97,21 @@ $(function(){
   <div class="main">
     <div class="title"><h1>2020 Students Training</h1><h2>At J.C. Booth Middle School</h2></div>
     <div class="contents">
-      <ul>
-        <li id="tab">Attendance</li>
-        <li id="tab">Program</li>
-        <li id="tab">Resources</li>
-      </ul>
+      <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Attendance')">Attendance</button>
+  <button class="tablinks" onclick="openCity(event, 'Program')">Program</button>
+  <button class="tablinks" onclick="openCity(event, 'Resources')">Resources</button>
+</div>
+
+<!-- Tab content -->
+<div id="Attendance" class="tabcontent">
+</div>
+
+<div id="Program" class="tabcontent">
+</div>
+
+<div id="Resources" class="tabcontent">
+</div>
     </div>
   </div>
     
