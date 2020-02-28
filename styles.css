@@ -176,6 +176,35 @@ html, body{
   text-decoration: none;
   text-align: center;
 }
+  
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+#myLinks a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+#myLinks a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
 
 }
 
@@ -325,3 +354,4 @@ li{
 .footer a:active {
   color: black;
 }
+
