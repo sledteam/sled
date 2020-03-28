@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" async />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Font Awesome settings -->
+  <script src="https://kit.fontawesome.com/f716af4283.js" crossorigin="anonymous"></script>
+  <style>
+    html, body{
+      font-family: "Comfortaa";
+    }
+   
+    h1{
+      font-size:28px;
+    }
+    
+    h2{
+      padding-left:60px;
+    }
+    
+		h3{
+			text-align:center;
+			padding-top:20px;
+		}
+		
+    .dropOff{
+			border:2px solid #0E76BC;
+			font-size:25px;
+			color:#0E76BC;
+			background-color:white;
+			padding:5px 10px;
+			border-radius:20px;
+			text-align:center;
+			margin-left:48vw;
+		}
+    
+    .dropOff:hover{
+      color:white;
+      background-color:#0E76BC;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trackpad, Keyboard, and Touchscreen issues</h1>
+  <h2>- To restart your Chromebook, you can press <i class="fas fa-redo-alt"></i> and <i class="fas fa-power-off"></i> at the same time.</h2>
+  <h2>- To clear the caches, hit Ctrl + Shift + Backspace and press "Clear data."</h2>
+  <h2>- Go to Sttings > About Chrome OS > Check for Update to update your device.</h2>
+	<h3>If you are still having isssues, </h3>
+  <a href="https://drive.google.com/a/mail.fcboe.org/file/d/1NyzuTlQ8-wW9xGMgRXW26jrLw3gRz8nr/view?usp=sharing"><button class="dropOff">Chromebook Drop off</button></a>
+</body>
+</html>
