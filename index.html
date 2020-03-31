@@ -75,10 +75,14 @@
   
   <style>
     @media only screen and (min-width: 1000px) {
-      .main{
-        height: auto;
-        min-height: 1600px;
+      .main {
+        height:1600px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        position: relative;
+       z-index: 0;
       }
+     
       
       .parallax {
         /* The image used */
@@ -131,10 +135,14 @@
     }
 
     @media only screen and (max-width: 1000px) {
-      .main{
-        height: auto;
-        min-height: 2400px;
-      )
+      
+      .main {
+        height:2400px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        z-index: 0;
+      }
     
       .parallax {
         display: none;
@@ -173,13 +181,6 @@
         color: #db3236;
         font-size: 40px !important;
       }
-    }
-
-    .main {
-      width: 100%;
-      margin: 0px 0px 0px 0px;
-      position: relative;
-      z-index: 0;
     }
 
     .projects {
