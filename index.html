@@ -19,13 +19,11 @@
   <link rel="stylesheet" href="https://sledteam.github.io/sled/styles.css" />
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/sledteam/sled/master/Favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="htytps://sledteam.github.io/sled/SLEDlogo.png" />
-  　
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#0E76BC" />
 
   <!-- Font Awesome settings -->
   <script src="https://kit.fontawesome.com/f716af4283.js" crossorigin="anonymous"></script>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159056448-1"></script>
   <script>
@@ -37,7 +35,6 @@
     gtag('js', new Date());
     gtag('config', 'UA-159056448-1');
   </script>
-
   <!-- loading header and footer file -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
@@ -48,7 +45,6 @@
       $("#footer").load("footer.html");
     });
   </script>
-
   <!-- Google logo setting -->
   <script type="application/ld+json">
     {
@@ -58,7 +54,6 @@
       "logo": "https://sledteam.github.io/sled/SLEDlogo.png"
     }
   </script>
-
   <!-- sttings for Google breadcrumbs  -->
   <script type="application/ld+json">
     {
@@ -72,107 +67,17 @@
       }]
     }
   </script>
-  
+
   <style>
     @media screen and (min-width: 1500px) {
       .main{
         height:2400px !important;
       }
     }
-    
+
     @media screen and (min-width: 1000px) {
       .main {
         height:1800px;
-        width: 100%;
-        margin: 0px 0px 0px 0px;
-        position: relative;
-       z-index: 0;
-      }
-     
-      
-      .parallax {
-        /* The image used */
-        background-image: url("https://i.ibb.co/r272XPt/2019-2020.png");
-        /* Set a specific height */
-        min-height: 400px;
-        opacity: 60%;
-        filter: blur(2px);
-        -webkit-filter: blur(2px);
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
-      .tiles{
-        position:relative;
-        top:100px;
-        width:90vw;
-        margin-left:5vw;
-        display: flex;
-       flex-wrap: wrap;
-      }
-      
-      #squares img{
-        opacity:85%;
-        transition: transform .2s;
-      }
-      
-      #squares img:hover{
-        opacity:100%;
-        transform: scale(1.08);
-        cursor: pointer;
-      }
-      
-      .chromebookHelpdesk img{
-        margin-left:5vw;
-        width:50vw;
-        display:block;
-      }
-      
-      .column{
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .subhelp{
-        margin:0px 0px;
-        padding:0px 0px;
-      }
-      
-      .subhelp img{
-        margin-left:5vw;
-        width:25vw;
-        display:block;
-        position:relative;
-        top:-3vw;
-      }
-      
-      .studentsTour{
-        margin:0px 0px;
-        padding:0px 0px;
-      }
-      
-      .studentsTour img{
-        margin-left:5vw;
-        width:25vw;
-        margin-top:2vw;
-        display:block;
-        position:relative;
-        top:-3vw;
-      }
-      
-      .hourOfCode img{
-        margin-left:5vw;
-        width:25vw;
-        display:block;
-      }
-      
-      .keepTheColor img{
-        margin-left:5vw;
-        width:25vw;
-        display:block;
       }
 
       .mission_logo {
@@ -189,49 +94,110 @@
       }
 
       .ingenuity {
-        color: #3cba54;
         font-size: 60px !important;
       }
 
       .creativity {
-        color: #f4c20d;
         font-size: 60px !important;
       }
 
       .innovation {
-        color: #db3236;
         font-size: 60px !important;
+      }
+      .parallax {
+        /* The image used */
+        background-image: url("https://i.ibb.co/r272XPt/2019-2020.png");
+        /* Set a specific height */
+        min-height: 400px;
+        opacity: 60%;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .tiles{
+        position:relative;
+        top:100px;
+        width:90vw;
+        margin-left:5vw;
+        display: flex;
+       flex-wrap: wrap;
+      }
+
+      #squares img{
+        opacity:85%;
+        transition: transform .2s;
+      }
+
+      #squares img:hover{
+        opacity:100%;
+        transform: scale(1.08);
+        cursor: pointer;
+      }
+
+      .chromebookHelpdesk img{
+        margin-left:5vw;
+        width:50vw;
+        display:block;
+      }
+
+      .column{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .subhelp{
+        margin:0px 0px;
+        padding:0px 0px;
+      }
+
+      .subhelp img{
+        margin-left:5vw;
+        width:25vw;
+        display:block;
+        position:relative;
+        top:-3vw;
+      }
+
+      .studentsTour{
+        margin:0px 0px;
+        padding:0px 0px;
+      }
+
+      .studentsTour img{
+        margin-left:5vw;
+        width:25vw;
+        margin-top:2vw;
+        display:block;
+        position:relative;
+        top:-3vw;
+      }
+
+      .hourOfCode img{
+        margin-left:5vw;
+        width:25vw;
+        display:block;
+      }
+
+      .keepTheColor img{
+        margin-left:5vw;
+        width:25vw;
+        display:block;
       }
     }
 
     @media only screen and (max-width: 1000px) {
-      
       .main {
         height:3000px;
-        width: 100%;
-        margin: 0px 0px 0px 0px;
-        position: relative;
-        z-index: 0;
-      }
-    
-      .parallax {
-        display: none;
       }
 
       .mission_logo {
         width: 60vw;
         text-align: center;
-      }
-
-      #squares img {
-        text-align: center;
-        display: block;
-        width: 60vw;
-        padding-top:5vh;
-      }
-      
-      .tiles{
-        text-align:center;
       }
 
       .mission {
@@ -240,83 +206,76 @@
         font-size: 15px;
       }
 
-
-
       .ingenuity {
-        color: #3cba54;
         font-size: 40px !important;
       }
 
       .creativity {
-        color: #f4c20d;
         font-size: 40px !important;
       }
 
       .innovation {
-        color: #db3236;
         font-size: 40px !important;
+      }
+
+      .parallax {
+        display: none;
+      }
+
+      #squares img {
+        text-align: center;
+        display: block;
+        width: 60vw;
+        padding-top:5vh;
+      }
+
+      .tiles{
+        text-align:center;
       }
     }
 
-
-    .tiles h1 {
-      text-align: center;
-      font-size: 50px;
-      color: black;
+    /*CSS for all devices*/
+    .main {
+      width: 100%;
+      margin: 0px 0px 0px 0px;
+      position: relative;
+      z-index: 0;
     }
 
-    #projects {
-      text-align: center;
-      display: inline-block;
+    .ingenuity {
+      color: #3cba54;
     }
-    
-    .follow{
-      position:relative;
-      top:100px;
-      text-align:center;
-      opacity:70%;
+
+    .creativity {
+      color: #f4c20d;
     }
-    
-    .follow h1{
-      font-size:35px;
-      padding-top: 20vw;
-    }
-    
-    .follow h2{
-      font-size:30px;
+
+    .innovation {
+      color: #db3236;
     }
   </style>
 </head>
 
 <body>
   <div id="header"></div>
-  
+
   <div class="main">
     <div class="mission">
-      <img src="https://raw.githubusercontent.com/sledteam/sled/master/Copy%20of%20LOGO.png" alt="SLED logo"
-        class="mission_logo">
-      <h1>Improving the Warrior Community Experience with <br><span class="ingenuity">Ingenuity</span> <span
-          class="creativity">Creativity</span> <span class="innovation">Innovation</span></h1>
+      <img src="https://raw.githubusercontent.com/sledteam/sled/master/Copy%20of%20LOGO.png" alt="SLED logo" class="mission_logo">
+      <h1>Improving the Warrior Community Experience with <br><span class="ingenuity">Ingenuity</span> <span class="creativity">Creativity</span> <span class="innovation">Innovation</span></h1>
     </div>
     <div class="parallax"></div>
     <div class="tiles">
-      <div class="chromebookHelpdesk" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img
-            src="https://github.com/sledteam/sled/blob/master/Chromebook%20Helpdesk.png?raw=true" alt="Chromebook-Helpdesk"></a></div>
+      <div class="chromebookHelpdesk" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img src="https://github.com/sledteam/sled/blob/master/Chromebook%20Helpdesk.png?raw=true" alt="Chromebook-Helpdesk"></a></div>
       <div class="column">
-      <div class="subhelp" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img
-            src="https://github.com/sledteam/sled/blob/master/Sub%20Help.png?raw=true" alt="Sub Help"></a>
+        <div class="subhelp" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img src="https://github.com/sledteam/sled/blob/master/Sub%20Help.png?raw=true" alt="Sub Help"></a></div>
+        <div class="studentsTour" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img src="https://github.com/sledteam/sled/blob/master/New%20Students%20Tour.png?raw=true" alt="New Students Tour"></a></div>
       </div>
-      <div class="studentsTour" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img
-            src="https://github.com/sledteam/sled/blob/master/New%20Students%20Tour.png?raw=true" alt="New Students Tour"></a></div>
-      </div>
-      <div class="hourOfCode" id="squares"><a href="https://sledteam.github.io/sled/hoc"><img
-            src="https://github.com/sledteam/sled/blob/master/Hour%20of%20code.png?raw=true" alt="Hour of Code"></a></div>
-      <div class="keepTheColor" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img
-            src="https://github.com/sledteam/sled/blob/master/%23Keep%20the%20Color.png?raw=true" alt="#Keep the Color"></a></div>
+      <div class="hourOfCode" id="squares"><a href="https://sledteam.github.io/sled/hoc"><img src="https://github.com/sledteam/sled/blob/master/Hour%20of%20code.png?raw=true" alt="Hour of Code"></a></div>
+      <div class="keepTheColor" id="squares"><a href="https://sledteam.github.io/sled/chromebook"><img src="https://github.com/sledteam/sled/blob/master/%23Keep%20the%20Color.png?raw=true" alt="#Keep the Color"></a></div>
     </div>
   </div>
 
   <div id="footer"></div>
 </body>
-
 </html>
