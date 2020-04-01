@@ -119,8 +119,12 @@ html, body{
   font-family: Nunito;
 }
 
-
+.header{
+  text-align:center;
+}
+  
 .header-logo{
+  displa:block;
   text-align:center;
   margin-left:20px;
   padding: 10px 30px;
