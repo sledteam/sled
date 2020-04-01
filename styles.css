@@ -191,6 +191,10 @@ html, body{
   z-index:-10;
 }
 
+li{
+  list-style:none;
+}
+
 /* Settings of a tag for whole page*/
 a:link {
   text-decoration: none;
