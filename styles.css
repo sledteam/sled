@@ -88,7 +88,7 @@ html, body{
   margin-right: 40px;
 }
 
-.footer-list li{
+.footer-list p{
   padding: 7px;
   font-size: 25px;
 }
@@ -152,7 +152,7 @@ html, body{
   top:50px;
 }
 
-.footer-list li{
+.footer-list p{
   margin:auto;
   padding: 1px;
   font-size:26px;
@@ -231,9 +231,6 @@ a:active {
   height: auto;
 }
   
-li{
-  list-style: none;
-}
 
 .footer{
   height: auto;
@@ -246,7 +243,7 @@ li{
   border-top:2px solid #0E76BC;
 }
 
-.footer li{
+.footer p{
   color:black !important;
 }
 
