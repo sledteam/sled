@@ -127,6 +127,7 @@ html, body{
   display:block;
   text-align:center;
   padding: 10px 30px;
+  margin:auto;
 }
 
 .header li{
