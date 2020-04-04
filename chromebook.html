@@ -48,45 +48,127 @@ $(function(){
     }
 </script>
 <style>
+@media only screen and (min-width: 1000px) {
+  .card{
+  	background-color:#1CCF7B;
+  	width:90vw;
+  	position:fixed;
+  	top:65px;
+  	left:5vw;
+  	border-radius:10px;
+  	z-index:100;
+  }	
+
+  .card p{
+  	color:white;
+  	font-size:25px;
+  	margin:10px 10px;
+  	display:inline-block;
+  }
+
+  .launch{
+  	border: none;
+    color: white;
+    padding: 5px 10px;
+  	border-radius:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+  	background-color:#24ABE2;
+  	float:right;
+  	margin:5px 10px;
+  }	
+
+  #text{
+  	margin:2px 5px;
+  	margin-left:10px;
+  }
+  
+  #text h2{
+  	font-size:40px;
+  	color:#0E76BC;
+  }
+  
+  #text p{
+  	width:70vw;
+  	padding:0px 0px;
+  	font-size:25px;
+  	float:left;
+  	position:relative;
+  	bottom:40px;
+  }
+  
+  #contents img{
+  	float:right;	
+  	width:20vw;
+  	position:relative;
+  	bottom:20vh;
+  	border-radius:5px;
+  }
+
+  .button{
+  	border: none;
+    color: white;
+    padding: 5px 10px;
+  	border-radius:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  	background-color:#1CCF7B;
+  	position:relative;
+  	left:10vw;
+  }
+  
+  .button:hover{
+  	color:black;
+  	cursor:pointer;
+  }	
+}
+
+@media only screen and (max-width: 1000px) {
+	.card{
+		display:none;
+	}
+
+  .launch{
+    display:none;
+  }
+
+  #content img{
+    display:none;
+  }
+
+  #text{
+  	margin:2px 5px;
+  	margin-left:10px;
+  }
+  
+  #text h2{
+  	font-size:40px;
+  	color:#0E76BC;
+  }
+  
+  #text p{
+  	width:80vw;
+  	padding:0px 0px;
+  	font-size:25px;
+  	position:relative;
+  	bottom:40px;
+  }
+
+  .button{
+    display:none;
+  }
+}
+
 .main{
   height: 1800px;
   width: 100%;
   margin: 0px 0px 0px 0px;
   position:relative;
   z-index:0;
-}
-
-	
-.card{
-	background-color:#1CCF7B;
-	width:90vw;
-	position:fixed;
-	top:65px;
-	left:5vw;
-	border-radius:10px;
-	z-index:100;
-}	
-	
-.launch{
-	border: none;
-  color: white;
-  padding: 5px 10px;
-	border-radius:20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-	background-color:#24ABE2;
-	float:right;
-	margin:5px 10px;
-}	
-	
-
-.card p{
-	color:white;
-	font-size:25px;
-	margin:10px 10px;
-	display:inline-block;
 }
 	
 .title h1{
@@ -102,52 +184,6 @@ $(function(){
 	padding:5px 8px;
 	height:300px;
 }
-
-#text{
-	margin:2px 5px;
-	margin-left:10px;
-}
-
-#text h2{
-	font-size:40px;
-	color:#0E76BC;
-}
-
-#text p{
-	width:70vw;
-	padding:0px 0px;
-	font-size:25px;
-	float:left;
-	position:relative;
-	bottom:40px;
-}
-
-#contents img{
-	float:right;	
-	width:20vw;
-	position:relative;
-	bottom:20vh;
-	border-radius:5px;
-}
-
-.button{
-	border: none;
-  color: white;
-  padding: 5px 10px;
-	border-radius:20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-	background-color:#1CCF7B;
-	position:relative;
-	left:10vw;
-}
-
-.button:hover{
-	color:black;
-	cursor:pointer;
-}	
 	
 </style>
 </head>
