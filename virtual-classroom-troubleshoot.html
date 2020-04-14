@@ -37,6 +37,9 @@
       $("#footer").load("footer.html");
     });
   </script>
+  <script>
+document.getElementById("message").style.display = "none";
+</script>
   
   <style>
     .main{
@@ -62,7 +65,7 @@
       padding-left:15vw;
     }
     
-    .message{
+    #message{
       height:4vh;
       background-color:#1D8348;
       width:100vw;
@@ -95,7 +98,7 @@
   <div id="header"></div>
   
   <div class="main">
-    <div class="message">
+    <div id="message">
       <h2 class="messageText">The SLED team is working to improve your Virtual Learning Experience. If you have issues that are not listed, please <a href="https://forms.gle/pGUUraeWR871pqc88">report the issues</a>.</h2>
       <i class="fas fa-times"></i>
     </div>
