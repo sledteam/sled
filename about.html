@@ -61,6 +61,16 @@
   background-color: #001f3f;
 }
 
+	.vl {
+  border-left: 4px solid #24ABE2;
+  height: 500px;
+  position: fixed;
+  left: 50%;
+  margin-left: -2px;
+  top: 0;
+		z-index:-10;
+	}
+	
 	#item {
 		width: 40vw;
 		height: 15vw;
@@ -83,8 +93,6 @@
 </head>
 
 <body>
-<div id = "header">
-
 <div class="header">
 <a href="https://sledteam.github.io/sled/"><img src="https://i.ibb.co/GCRScZb/Copy-of-LOGO-Title-Horizontal.png" alt="SLED" class="header-logo" /></a>
     <div class = "header-link">
@@ -106,15 +114,14 @@
       </ul>
     </div>
 </div>
-</div>
 
 <div class="main">
+	<div class="vl"></div>
 	<div id="item" data-aos="fade-up">
 		<h1>May 17, 2019</h1>
 	</div>
+	
 </div>
-
-<div id="footer">
 
 <a href="https://sledteam.github.io/sled/feedback" class="far fa-comment-alt" target="_blank"></a>
 <div class="footer">
@@ -132,6 +139,5 @@
       </div>
 </div>
 
-</div>
 </body>
 </html>
