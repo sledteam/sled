@@ -17,6 +17,15 @@
   <script src="https://kit.fontawesome.com/f716af4283.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#0E76BC" />
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+<!-- Script to set position to top when the page refreshed -->
+		<script>
+	$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>
+		
+<!-- Settings for Google Search -->
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -35,6 +44,7 @@
     }
 </script>
 
+<!--Settings for AOS animation-->		
 <script>
   AOS.init({
   duration: 1200,
@@ -51,6 +61,7 @@
   gtag('config', 'UA-159056448-1');
 </script>
 
+<!-- CSS -->		
 <style>
 .main{
   height: 3000px;
@@ -110,13 +121,12 @@
 	
 	#picsholder{
 			width: 40vw;
-			height: 15vw;
+			height: 22.5vw;
 			background-color: #001f3f;
 			position: relative;
-			left:25vw;
-			margin:10vw auto;
+			right:25vw;
+			margin:50vw auto;
 			text-align: center;
-		top:-40vw;
 	}
 	
 	#text{
@@ -159,11 +169,9 @@
 		<h1 id="text">May 7-9, 2019</h1>
 		<h1 id="text">SLED Chapter Launch Party</h2>
 	</div>
-	<div id="itemleft" data-aos="fade-right" style="border: 3px solid #24ABE2;">
+	<div id="picsholder" data-aos="fade-right" style="border: 3px solid #24ABE2;">
 		<h1 id="text">August 5, 2019</h1>
 		<h1 id="text">2019-2020 SLED Chapter Started</h2>
-	</div>
-	<div id="picsholder" data-aos="fade-left">
 		<img src="https://github.com/sledteam/sled/blob/master/2019-2020%20SLED%20Team.png?raw=true" alt="SLED Team picture" id="picture">
 	</div>
 	<div id="itemleft" data-aos="zoom-in-right" style="border: 3px solid #24ABE2;">
