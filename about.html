@@ -16,188 +16,166 @@
 　<meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="https://kit.fontawesome.com/f716af4283.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#0E76BC" />
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-<!-- Script to set position to top when the page refreshed -->
-<script>
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-</script>
-		
-<!-- Settings for Google Search -->
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "JCBMS SLED Team",
-        "item": "https://sledteam.github.io/sled"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "About",
-        "item": "https://sledteam.github.io/sled/about"
-      }]
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <!-- Script to set position to top when the page refreshed -->
+  <script>
+    $(document).ready(function(){
+      $(this).scrollTop(0);
+    });
+  </script>
+
+  <!-- Load header file and footer file -->
+  <script>
+  $(function(){
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+  </script>
+
+  <!-- Settings for Google Search -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "JCBMS SLED Team",
+          "item": "https://sledteam.github.io/sled"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://sledteam.github.io/sled/about"
+        }]
+      }
+  </script>
+
+  <!--Settings for AOS animation-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    duration: 1200,
+  });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159056448-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159056448-1');
+  </script>
+
+  <!-- CSS -->
+  <style>
+    .main{
+      height: 3000px;
+      width: 100%;
+      margin: 0px 0px 0px 0px;
+      position: relative;
+      z-index:0;
+      background-color: #001f3f;
     }
-</script>
 
-<!--Settings for AOS animation-->		
-<script>
-  AOS.init({
-  duration: 1200,
-});
-</script>
-		
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159056448-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  	.vl {
+      border-left: 4px solid #24ABE2;
+      height: 100vw;
+      position: fixed;
+      left: 50%;
+      margin-left: -2px;
+      top: 0;
+      z-index:-10;
+  	}
 
-  gtag('config', 'UA-159056448-1');
-</script>
+  	#item {
+  		width: 40vw;
+  		height: 15vw;
+  		background-color: #001f3f;
+  		position: relative;
+  		top:150px;
+  		margin-top:0px;
+  		margin-bottom: 150px;
+  		margin-right:auto;
+  		margin-left:auto;
+  		padding-top: 2vw;
+  		text-align: center;
+  		border: 3px solid #24ABE2;
+  	}
 
-<!-- CSS -->		
-<style>
-.main{
-  height: 3000px;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  position: relative;
-  z-index:0;
-  background-color: #001f3f;
-}
+  	#itemleft {
+  		width: 40vw;
+  		height: 15vw;
+  		background-color: #001f3f;
+  		position: relative;
+  		right:25vw;
+  		margin:50vh auto;
+  		padding-top: 2vw;
+  		text-align: center;
+  	}
 
-	.vl {
-  border-left: 4px solid #24ABE2;
-  height: 100vw;
-  position: fixed;
-  left: 50%;
-  margin-left: -2px;
-  top: 0;
-  z-index:-10;
-	}
-	
-	#item {
-		width: 40vw;
-		height: 15vw;
-		background-color: #001f3f;
-		position: relative;
-		top:150px;
-		margin-top:0px;
-		margin-bottom: 150px;
-		margin-right:auto;
-		margin-left:auto;
-		padding-top: 2vw;
-		text-align: center;
-		border: 3px solid #24ABE2;
-	}
-	
-	#itemleft {
-		width: 40vw;
-		height: 15vw;
-		background-color: #001f3f;
-		position: relative;
-		right:25vw;
-		margin:50vh auto;
-		padding-top: 2vw;
-		text-align: center;
-	}
-	
-		#itemright {
-			width: 40vw;
-			height: 15vw;
-			background-color: #001f3f;
-			position: relative;
-			left:25vw;
-			margin:50vh auto;
-			padding-top: 2vw;
-			text-align: center;
-	}
-	
-	#picsholder{
-			width: 40vw;
-			height: 30vw;
-			background-color: #001f3f;
-			position: relative;
-			right:25vw;
-			margin:50vw auto;
-			text-align: center;
-	}
-	
-	#text{
-		font-size:1.6em;
-		color:white;
-	}
-	
-	#picture{
-		width:40vw;
-	}
-</style>
+  	#itemright {
+  		width: 40vw;
+  		height: 15vw;
+  		background-color: #001f3f;
+  		position: relative;
+  		left:25vw;
+  		margin:50vh auto;
+  		padding-top: 2vw;
+  		text-align: center;
+    }
+
+  	#picsholder{
+  		width: 40vw;
+  		height: 30vw;
+  		background-color: #001f3f;
+  		position: relative;
+  		right:25vw;
+  		margin:50vw auto;
+  		text-align: center;
+  	}
+
+  	#text{
+  		font-size:1.6em;
+  		color:white;
+  	}
+
+  	#picture{
+  		width:40vw;
+  	}
+  </style>
 </head>
 
 <body>
-<div class="header">
-<a href="https://sledteam.github.io/sled/"><img src="https://i.ibb.co/GCRScZb/Copy-of-LOGO-Title-Horizontal.png" alt="SLED" class="header-logo" /></a>
-    <div class = "header-link">
-      <ul>
-        <a href="https://sledteam.github.io/sled/about"><li>About</li></a>
-        <div class="dropdown">
-          <a href="https://sledteam.github.io/sled/projects"><li class="droplist">Project</li></a>
-          <div class="dropdown-content">
-           <a href="https://sledteam.github.io/sled/chromebook">Chromebook Helpdesk</a>
-           <a href="https://sledteam.github.io/sled/hoc">Hour of Code</a>
-           <a href="https://sledteam.github.io/sled/keepthecolor">#Keep the Color</a>
-           <a href="https://sledteam.github.io/sled/studentstour">New Students Tour</a>
-           <a href="https://sledteam.github.io/sled/subhelp">Sub Help</a>
-           <a href="https://sledteam.github.io/sled/virtual-classroom-troubleshoot">Virtual Classroom Troubleshoot</a>
-          </div>
-        </div>
-        <a href="https://sledteam.github.io/sled/members"><li>Members</li></a>
-        <a href="https://sledteam.github.io/sled/sledapplication"><li>Application</li></a>
-      </ul>
-    </div>
-</div>
+<div id="header"></div>
 
 <div class="main">
+  <!-- Virtical Line -->
 	<div class="vl"></div>
+
 	<div id="item" data-aos="fade-up" style="border: 3px solid #24ABE2;">
 		<h1 id="text">May 7-9, 2019</h1>
-		<h1 id="text">SLED Chapter Launch Party</h2>
+		<h1 id="text">SLED Chapter Launch Party</h1>
 	</div>
 	<div id="picsholder" data-aos="fade-right" style="border: 3px solid #24ABE2;">
 		<h1 id="text">August 5, 2019</h1>
-		<h1 id="text">2019-2020 SLED Chapter Started</h2>
+		<h1 id="text">2019-2020 SLED Chapter Started</h1>
 		<img src="https://github.com/sledteam/sled/blob/master/2019-2020%20SLED%20Team.png?raw=true" alt="SLED Team picture" id="picture">
 	</div>
-	<div id="itemright" data-aos="zoom-in-left" style="border: 3px solid #24ABE2;"> 
+	<div id="itemright" data-aos="zoom-in-left" style="border: 3px solid #24ABE2;">
 		<h1 id="text">May 17, 2019</h1>
-		<h1 id="text">Mission Statement</h2>
+		<h1 id="text">Mission Statement</h1>
 	</div>
 	<div id="itemleft" data-aos="zoom-in-right" style="border: 3px solid #24ABE2;">
 		<h1 id="text">August, 2019</h1>
-		<h1 id="text">2019-2020 SLED Chapter Started</h2>
+		<h1 id="text">2019-2020 SLED Chapter Started</<h1>
 	</div>
 </div>
 
-<div class="footer">
-      <img src="https://i.ibb.co/YD1P8Rb/Copy-of-LOGO-Black.png" alt="SLED Logo" class="footer-logo" />
-      <div class="footer-list">
-        <a href="#top"><a href="#"><span class="fas fa-angle-up" aria-hidden="true"></span>Back to Top</a>
-        <br>
-        <a href="https://instagram.com/jcbmssledteam/" class="fab fa-instagram" target="_blank"></a>
-        <a href="https://facebook.com/jcbmssledteam" class="fab fa-facebook" target="_blank"></a>
-        <a href="https://twitter.com/jcbmssledteam" class="fab fa-twitter" target="_blank"></a>
-        <a href="https://www.youtube.com/channel/UC96PRMA0XMQir1MiPd5Ptpw" class="fab fa-youtube" target="_blank"></a>
-        <a href="mailto:jc-booth-sled-team@mail.fcboe.org" class="fas fa-envelope" target="_blank"></a>
-        <a href="https://www.fcboe.org/jcbms" target="_blank"><p>J.C. Booth Middle School</p></a>
-        <a href="https://www.ischoolinitiative.com" target="_blank"><p>Ischool Initiative</p></a>
-      </div>
-</div>
-
+<div id="footer"></div>\
 </body>
 </html>
