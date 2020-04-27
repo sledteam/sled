@@ -228,7 +228,6 @@ a:active {
   background-color: black !important;
   width: 100vw;
   text-align:center;
-  margin: 0vw 2.5vw;
   z-index:20 !important;
 }
 
@@ -279,18 +278,18 @@ a:active {
 }
 
 .footer a:link {
-  color: black;
+  color: white;
 }
 
 .footer a:visited {
-  color: black;
+  color: white;
 }
 
 .footer a:hover {
-  color: black;
+  color: white;
 }
 
 .footer a:active {
-  color: black;
+  color: white;
 }
 
