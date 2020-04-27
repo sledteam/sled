@@ -69,12 +69,25 @@ html, body{
   background-color: white;
 }
 
+.navigation{
+  margin-top:7px;
+  font-size: 25px;
+  color: white;
+  padding: 2px 20px;
+}  
+  
+.navigation p{
+  padding: 4px;
+  font-size: 25px;
+}
+  
 .footer-list{
   margin-top:7px;
   font-size: 25px;
   color: white;
   float: right;
   padding: 2px 8px;
+  
 }
 
 .footer-list p{
