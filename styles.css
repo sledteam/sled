@@ -74,6 +74,7 @@ html, body{
   font-size: 25px;
   color: white;
   padding: 2px 20px;
+  float:left;
 }  
   
 .navigation p{
