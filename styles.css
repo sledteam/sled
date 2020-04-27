@@ -69,16 +69,6 @@ html, body{
   background-color: white;
 }
 
-
-.footer-logo{
-  float: left;
-  padding: 15px 20px;
-  width: 400px;
-  height: auto;
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
 .footer-list{
   margin-top:7px;
   font-size: 25px;
@@ -136,14 +126,6 @@ html, body{
   
 .header-link{
  display:none;
-}
-
-.footer-logo{
-  
-}
-
-.footer img{
-  display:none;
 }
 
 .footer-list{
@@ -243,16 +225,15 @@ a:active {
 .footer{
   height: auto;
   min-height:300px;
-  background-color: white !important;
+  background-color: black !important;
   width: 95vw;
   text-align:center;
   margin: 0vw 2.5vw;
   z-index:20 !important;
-  border-top:2px solid #0E76BC;
 }
 
 .footer p{
-  color:black !important;
+  color:white !important;
 }
 
 .fab:hover {
