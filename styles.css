@@ -250,6 +250,7 @@ a:active {
   font-size:38px !important;
   position:relative;
   top:5px;
+  color:white;
 }
 
 .fa-facebook{
@@ -275,25 +276,6 @@ a:active {
 
 .fa-youtube{
   color: #FF0000 !important;
-}
-
-.fa-comment-alt{
-  font-size:50px !important;
-  padding:10px 10px;
-  border: 1px solid black;
-  border-radius:40px;
-  position:fixed;
-  bottom:5px;
-  right:5px;
-  z-index:20;
-  background-color:black;
-  color:#24ABE2;
-}
-
-.fa-comment-alt:hover{
-  background-color:white;
-  opacity:60%;
-  border: 1px solid white;
 }
 
 .footer a:link {
