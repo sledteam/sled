@@ -226,7 +226,7 @@ a:active {
   height: auto;
   min-height:300px;
   background-color: black !important;
-  width: 95vw;
+  width: 100vw;
   text-align:center;
   margin: 0vw 2.5vw;
   z-index:20 !important;
