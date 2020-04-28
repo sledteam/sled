@@ -68,28 +68,40 @@ html, body{
 .dropdown:hover .dropbtn {
   background-color: white;
 }
-  
-.footer-list{
-  margin-top:7px;
-  font-size: 25px;
-  color: white;
-  padding: 2px 8px;
-  
-}
 
-.footer-list p{
-  padding: 4px;
-  font-size: 25px;
-}
+  .footer-list{
+    margin-top:7px;
+    font-size: 25px;
+    color: white;
+    padding: 2px 8px;
+
+  }
+
+  .footer-list p{
+    padding: 4px;
+    font-size: 25px;
+  }
   
-.fab{
-  padding: 10px;
-  font-size: 40px !important;
-  height:50px;
-  width: 50px;
-  text-decoration: none;
-  text-align: center;
-}
+  .left-list{
+    display:inline-block;
+    width:45vw;
+    padding-left:10vw;
+  }
+  
+  .right-list{
+    display:inline-block;
+    width:45vw;
+    padding-right:10vw;
+  }
+  
+  .fab{
+    padding: 10px;
+    font-size: 40px !important;
+    height:50px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+  }
 
 .fas{
   padding: 10px;
