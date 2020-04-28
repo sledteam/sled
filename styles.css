@@ -80,7 +80,8 @@ html, body{
     width:40vw;
     text-align:center;
     float:left;
-    font-size:1.2em !important;
+    font-size:1.4em !important;
+    padding-left:5vw;
   }
   
   .left-list p{
@@ -92,8 +93,7 @@ html, body{
     text-align:center;
     display:inline-block;
     width:40vw;
-    padding-right:5vw;
-    float:right;
+    padding-left:5vw;
     padding-top:10vh;
     font-size: 1.4em;
   }
