@@ -71,15 +71,10 @@ html, body{
 
   .footer-list{
     margin-top:7px;
-    font-size: 25px;
+    font-size: 1em;
     color: white;
     padding: 2px 8px;
 
-  }
-
-  .footer-list p{
-    padding: 2px;
-    font-size: 25px;
   }
   
   .left-list{
@@ -87,12 +82,11 @@ html, body{
     width:45vw;
     padding-left:10vw;
     float:left;
-    padding-top:5vh;
   }
   
   .left-list p{
     padding:1px;
-    font-size:20px;
+    font-size:.8empx;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
   }
@@ -102,6 +96,7 @@ html, body{
     width:45vw;
     padding-right:10vw;
     float:right;
+    padding-top:10vh;
   }
   
   .fab{
