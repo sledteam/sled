@@ -80,8 +80,8 @@ html, body{
     width:40vw;
     float:left;
     font-size:1.5em !important;
-    padding-left:5vw;
-    padding-top:5vh;
+    margin-left:10vw;
+    margin-top:5vh;
     border-left:3px solid #0E76BC;
   }
   
