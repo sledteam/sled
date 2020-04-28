@@ -78,11 +78,11 @@ html, body{
   .left-list{
     display:inline-block;
     width:40vw;
-    text-align:center;
     float:left;
     font-size:1.5em !important;
     padding-left:5vw;
     padding-top:5vh;
+    border-left:3px solid #0E76BC;
   }
   
   .left-list p{
