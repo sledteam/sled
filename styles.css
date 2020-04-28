@@ -89,6 +89,11 @@ html, body{
     float:left;
   }
   
+  .left-list p{
+    padding:1px;
+    font-size:20px;
+  }
+  
   .right-list{
     display:inline-block;
     width:45vw;
