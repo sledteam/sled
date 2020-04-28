@@ -92,6 +92,8 @@ html, body{
   .left-list p{
     padding:1px;
     font-size:20px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
   }
   
   .right-list{
