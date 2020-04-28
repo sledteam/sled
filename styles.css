@@ -94,7 +94,7 @@ html, body{
   .right-list{
     text-align:center;
     display:inline-block;
-    width:40vw;
+    width:30vw;
     padding-left:5vw;
     padding-top:5vh;
     font-size: 1.6em !important;
@@ -240,7 +240,7 @@ a:active {
   
 
 .footer{
-  height: 300px;
+  height: 310px;
   background-color: #041f31 !important;
   z-index:20 !important;
 }
