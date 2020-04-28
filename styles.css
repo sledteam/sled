@@ -78,7 +78,7 @@ html, body{
   }
 
   .footer-list p{
-    padding: 4px;
+    padding: 2px;
     font-size: 25px;
   }
   
@@ -86,12 +86,14 @@ html, body{
     display:inline-block;
     width:45vw;
     padding-left:10vw;
+    float:left;
   }
   
   .right-list{
     display:inline-block;
     width:45vw;
     padding-right:10vw;
+    float:right;
   }
   
   .fab{
