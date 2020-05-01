@@ -27,75 +27,80 @@ $(function(){
 });
 </script> 
 <style>
-.main{
-	height: 2000px;
-	width: 100%;
-	margin: 0px 0px 0px 0px;
-	position:relative;
-	z-index:0;
-}
+	.main{
+		height: 2000px;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		position:relative;
+		z-index:0;
+	}
 
-.title{
-	position: absolute;
-  top: 30vh;
-  left: 30vw;
-	font-size:60px;
-	text-align:center;
-	color:#0E76BC;
-	z-index:2;
-	width:40vw;
-}
+	.title{
+		position: absolute;
+		top: 30vh;
+		left: 30vw;
+		font-size:60px;
+		text-align:center;
+		color:#0E76BC;
+		z-index:2;
+		width:40vw;
+	}
 
-.description{
-	margin-left:10vw;
-	width:80vw;
-	font-size:25px;
-	line-height:35px;
-}
+	.description{
+		margin-left:10vw;
+		width:80vw;
+		font-size:25px;
+		line-height:35px;
+	}
 
-.gallery{
-	width:100vw;
-	text-align:center;
-}
+	.gallery{
+		width:100vw;
+		text-align:center;
+	}
 
-.gallery-top-picture{
-	width:50vw;
-	margin-bottom:20px;
-}	
+	.gallery-top-picture{
+		width:50vw;
+		margin-bottom:20px;
+	}	
 
-#picture:hover{
-	transform: scale(1.5);
-}
+	#picture{
+		opacity:80%;
+	}	
 
-.picturesholder{
-	width:90vw;
-	margin-left:5vw;
-	text-align:center;
-	border-top:3px solid black;
-}
+	#picture:hover{
+		transform: scale(2);
+		opacity:100%;
+	}
 
-.picturesholder img{
-	width:20vw;
-	margin:20px 1vw;
-}
+	.picturesholder{
+		width:90vw;
+		margin-left:5vw;
+		text-align:center;
+		border-top:3px solid black;
+	}
 
-.parallax {
-	z-index:-1;
-	/* The image used */
-	background-image: url("https://github.com/sledteam/sled/blob/master/subhelp-parallax.png?raw=true");
+	.picturesholder img{
+		width:20vw;
+		margin:20px 1vw;
+	}
 
-	/* Set a specific height */
-	height: 70vh;
+	.parallax {
+		z-index:-1;
+		/* The image used */
+		background-image: url("https://github.com/sledteam/sled/blob/master/subhelp-parallax.png?raw=true");
 
-	filter: blur(4px);
-	-webkit-filter: blur(4px);
+		/* Set a specific height */
+		height: 70vh;
 
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+		filter: blur(4px);
+		-webkit-filter: blur(4px);
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 </style>
 </head>
 
