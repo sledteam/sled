@@ -68,6 +68,10 @@ html, body{
 .dropdown:hover .dropbtn {
   background-color: white;
 }
+  
+  .footer{
+    height: 310px;
+  }
 
   .footer-list{
     margin-top:7px;
@@ -145,15 +149,6 @@ html, body{
  display:none;
 }
 
-.footer-list{
-  display:block;
-  font-size: 25px;
-  color: #ccfbff;
-  padding-top: -5px;
-  text-align:center;
-  position:relative;
-  top:50px;
-}
 
 .footer-list p{
   margin:auto;
@@ -204,6 +199,10 @@ html, body{
     display:inline-block;
     padding-top:5vh;
     font-size: 1.6em !important;
+  }
+  
+  .footer{
+    height: auto;
   }
   
 }
@@ -266,7 +265,6 @@ a:active {
   
 
 .footer{
-  height: 310px;
   background-color: #041f31 !important;
   z-index:20 !important;
 }
