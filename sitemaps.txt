@@ -9,3 +9,4 @@ https://sledteam.github.io/sled/studentstour
 https://sledteam.github.io/sled/subhelp
 https://sledteam.github.io/sled/virtual-classroom-troubleshoot
 https://sledteam.github.io/sled/sledapplication
+https://sledteam.github.io/sled/competition
